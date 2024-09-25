@@ -1,0 +1,55 @@
+# Written by Synplify Pro version maplat, Build 1612R. Synopsys Run ID: sid1727042668 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 10.000 -waveform {0.000 5.000} -name {MAIN|delay_tr_input} [get_ports {delay_tr_input}] 
+create_clock -period 10.000 -waveform {0.000 5.000} -name {MAIN|delay_hc_input} [get_ports {delay_hc_input}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set_false_path -from [get_clocks {MAIN|delay_hc_input}] -to [get_clocks {MAIN|clk_12mhz_inferred_clock}]
+set_false_path -from [get_clocks {MAIN|delay_hc_input}] -to [get_clocks {MAIN|delay_tr_input}]
+set_false_path -from [get_clocks {MAIN|delay_tr_input}] -to [get_clocks {MAIN|clk_12mhz_inferred_clock}]
+set_false_path -from [get_clocks {MAIN|delay_tr_input}] -to [get_clocks {MAIN|delay_hc_input}]
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

@@ -1,0 +1,1 @@
+define_attribute {i:pll_inst} {syn_noprune} 1

@@ -1,0 +1,32 @@
+@P:  Worst Slack : -20.756
+@P:  ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock - Estimated Frequency : 32.6 MHz
+@P:  ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock - Requested Frequency : 100.5 MHz
+@P:  ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock - Estimated Period : 30.704
+@P:  ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock - Requested Period : 9.948
+@P:  ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock - Slack : -20.756
+@P:  MAIN|clk_12mhz_inferred_clock - Estimated Frequency : NA
+@P:  MAIN|clk_12mhz_inferred_clock - Requested Frequency : 12.0 MHz
+@P:  MAIN|clk_12mhz_inferred_clock - Estimated Period : NA
+@P:  MAIN|clk_12mhz_inferred_clock - Requested Period : 83.320
+@P:  MAIN|clk_12mhz_inferred_clock - Slack : NA
+@P:  MAIN|delay_hc_input - Estimated Frequency : 211.9 MHz
+@P:  MAIN|delay_hc_input - Requested Frequency : 100.0 MHz
+@P:  MAIN|delay_hc_input - Estimated Period : 4.718
+@P:  MAIN|delay_hc_input - Requested Period : 10.000
+@P:  MAIN|delay_hc_input - Slack : 5.282
+@P:  MAIN|delay_tr_input - Estimated Frequency : 211.9 MHz
+@P:  MAIN|delay_tr_input - Requested Frequency : 100.0 MHz
+@P:  MAIN|delay_tr_input - Estimated Period : 4.718
+@P:  MAIN|delay_tr_input - Requested Period : 10.000
+@P:  MAIN|delay_tr_input - Slack : 5.282
+@P:  System - Estimated Frequency : 200.4 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 4.991
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 5.009
+@P: MAIN Part : ice40up5ksg48
+@P: MAIN I/O primitives : 13
+@P: MAIN I/O Register bits : 0
+@P: MAIN Register bits (Non I/O) : 619 (11%)
+@P: MAIN Total Luts : 1340 (25%)
+@P:  CPU Time : 0h:00m:01s

@@ -1,0 +1,179 @@
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_flag is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_flag is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.start_timer_s1 is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.stop_timer_s1 is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.integrator[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.error_control[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.output_unclamped[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.prop_term[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pwm_generator.vhd":28:8:28:9|User-specified initial value defined for instance pwm_generator_inst.counter[9:0] is being ignored. 
+@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":86:8:86:9|Sequential instance delay_measurement_inst.delay_tr[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":113:8:113:9|Sequential instance delay_measurement_inst.delay_hc[0] is reduced to a combinational gate by constant propagation.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[27] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[26] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[25] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[24] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[23] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[22] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[21] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[20] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[19] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[18] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[3]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[2]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[1]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[31]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[4]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[5]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[6]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[7]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[8]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[9]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[10]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[11]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[12]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[13]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[14]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[15]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[16]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[17]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[18]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[19]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[20]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[21]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[22]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[23]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[24]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[25]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[26]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[27]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[28]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[29]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[30]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[3]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[2]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[1]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[31]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[4]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[5]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[6]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[7]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[8]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[9]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[10]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[11]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[12]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[13]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[14]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[15]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[16]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[17]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[18]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[19]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[20]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[21]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[22]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[23]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[24]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[25]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[26]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[27]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[28]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[29]
+@W: BN137 :|Found combinational loop during mapping at net measured_delay_hc[30]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[30]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[29]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[28]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[27]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[26]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[25]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[24]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[23]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[22]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[21]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[20]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[19]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[18]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[17]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[16]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[15]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[14]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[13]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[12]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[11]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[10]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[9]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[8]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[7]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[6]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[5]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[4]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[31]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[1]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[2]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_tr_timer.measured_delay_tr[3]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[30]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[29]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[28]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[27]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[26]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[25]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[24]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[23]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[22]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[21]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[20]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[19]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[18]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[17]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[16]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[15]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[14]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[13]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[12]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[11]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[10]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[9]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[8]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[7]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[6]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[5]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[4]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[31]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[1]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[2]
+@W: BN137 :|Found combinational loop during mapping at net delay_measurement_inst.delay_hc_timer.measured_delay_hc[3]
+@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pwm_generator.vhd":54:25:54:39|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock MAIN|delay_tr_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_tr_input"
+@W: MT420 |Found inferred clock MAIN|delay_hc_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_hc_input"
+@W: MT420 |Found inferred clock MAIN|clk_12mhz_inferred_clock with period 83.32ns. Please declare a user-defined clock on object "n:clk_12mhz"

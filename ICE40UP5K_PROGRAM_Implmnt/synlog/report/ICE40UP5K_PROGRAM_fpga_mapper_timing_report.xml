@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock</data>
+<data>100.5 MHz</data>
+<data>32.6 MHz</data>
+<data>-20.756</data>
+</row>
+<row>
+<data>MAIN|clk_12mhz_inferred_clock</data>
+<data>12.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>MAIN|delay_hc_input</data>
+<data>100.0 MHz</data>
+<data>211.9 MHz</data>
+<data>5.282</data>
+</row>
+<row>
+<data>MAIN|delay_tr_input</data>
+<data>100.0 MHz</data>
+<data>211.9 MHz</data>
+<data>5.282</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>200.4 MHz</data>
+<data>5.009</data>
+</row>
+</report_table>

@@ -1,0 +1,29 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Sep 22 2024 23:33:28
+
+# Family & Device:    iCE40UP5K
+
+# Package:            SG48
+
+# ##############################################################################
+
+###IOSet List 13
+set_io delay_hc_input 11
+set_io il_max_comp2 46
+set_io pwm_output 18
+set_io s2_phy 34
+set_io start_stop 21
+set_io s4_phy 38
+set_io delay_tr_input 9
+set_io il_min_comp1 3
+set_io reset 20
+set_io s1_phy 31
+set_io il_max_comp1 2
+set_io il_min_comp2 48
+set_io s3_phy 36
+
