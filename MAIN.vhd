@@ -18,6 +18,10 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
+library sb_ice40_components_syn;
+use sb_ice40_components_syn.components.all;
+
+
 entity MAIN is
     Port (
         -- Clock and control signals
@@ -43,7 +47,11 @@ entity MAIN is
         s4_phy             : out std_logic;
 
         -- PWM output to be read by the microcontroller
-        pwm_output     : out std_logic    -- Output PWM signal from current_shift
+        pwm_output     : out std_logic;    -- Output PWM signal from current_shift
+        
+        rgb_r              : out std_logic;
+        rgb_g              : out std_logic;
+        rgb_b              : out std_logic
     );
 end MAIN;
 
@@ -121,7 +129,27 @@ architecture Behavioral of MAIN is
             state_error   : out std_logic
         );
     end component;
-
+	-- RGB module to control RGB led on control board
+   component SB_RGBA_DRV
+        generic (
+        		CURRENT_MODE : string := "0b0";
+                RGB0_CURRENT : string := "0b000000";
+                RGB1_CURRENT : string := "0b000000";
+                RGB2_CURRENT : string := "0b000000"
+                );
+        port (
+            CURREN   : in  std_logic;        -- Enable current control
+            RGBLEDEN : in  std_logic;        -- Enable RGB LED driver
+            RGB0PWM  : in  std_logic;        -- PWM for Red
+            RGB1PWM  : in  std_logic;        -- PWM for Green
+            RGB2PWM  : in  std_logic;        -- PWM for Blue
+            RGB0     : out std_logic;        -- Red LED output
+            RGB1     : out std_logic;        -- Green LED output
+            RGB2     : out std_logic         -- Blue LED output
+        );
+    end component;
+    
+    
     -- Internal signals for clocking and control
     signal clk_100mhz         : std_logic;   -- PLL generated 100 MHz clock
     signal pwm_out1, pwm_out2 : std_logic;   -- PWM outputs for phase controllers
@@ -138,7 +166,13 @@ architecture Behavioral of MAIN is
     signal phase_shift_ns     : integer;       -- Phase shift between S1 and S3
 	signal S1_buffor     : std_logic;       -- 
     signal S3_buffor     : std_logic;       -- 
-
+	
+	--- RGB signal
+	signal red : std_logic; 
+	signal green : std_logic; 
+	signal blue : std_logic; 
+	signal enable_rgb : std_logic := '1';
+	
 
 begin
 
@@ -225,4 +259,48 @@ begin
             duty_input => pwm_duty_input,  -- Input from current_shift integer output
             pwm_out => pwm_output          -- Output PWM signal to be read by the microcontroller
         );
+        
+        
+        rgb_drv: SB_RGBA_DRV
+        generic map(
+        		CURRENT_MODE => "0b0",
+                RGB0_CURRENT =>  "0b111111",
+                RGB1_CURRENT => "0b111111",
+                RGB2_CURRENT => "0b111111"
+                )
+        port map (
+            CURREN   => '1',          -- Enable current control
+            RGBLEDEN => enable_rgb,    -- Enable RGB driver
+            RGB0PWM  => red,         -- Red PWM signal from LEDDA IP
+            RGB1PWM  => green,         -- Green PWM signal from LEDDA IP
+            RGB2PWM  => blue,         -- Blue PWM signal from LEDDA IP
+            RGB0     => rgb_r,         -- Red LED output
+            RGB1     => rgb_g,         -- Green LED output
+            RGB2     => rgb_b          -- Blue LED output
+        );
+    
+    process(start_stop, reset)
+    begin
+        if start_stop = '0' AND reset = '0' then
+        red <= '0';
+        green <= '0';
+        blue <= '1';
+        end if;
+        if start_stop = '0'  AND reset = '1' then
+        red <= '1';
+        green <= '0';
+        blue <= '0';
+        end if;
+        if start_stop = '1' AND reset = '0' then
+        red <= '0';
+        green <= '1';
+        blue <= '0';
+        end if;
+        if start_stop = '1'  AND reset = '1' then
+        red <= '1';
+        green <= '0';
+        blue <= '1';
+        end if;
+    end process;
+    
 end Behavioral;

@@ -1,22 +1,22 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Top entity is set to MAIN.
+@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Top entity is set to MAIN.
 @N|Running in 64-bit mode
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Top entity is set to MAIN.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Synthesizing work.main.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PWM_GENERATOR.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":7:7:7:19|Synthesizing work.current_shift.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd":6:7:6:19|Synthesizing work.pi_controller.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":5:7:5:11|Synthesizing work.timer.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":5:7:5:22|Synthesizing work.phase_controller.behavioral.
-@N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":22:20:22:21|Using onehot encoding for type state_type. For example, enumeration readytogo_state is mapped to "100000".
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
-@N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":66:8:66:9|Trying to extract state machine for register state.
-@N: CL159 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":27:8:27:16|Input error_pin is unused.
+@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Top entity is set to MAIN.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Synthesizing work.main.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":7:7:7:19|Synthesizing work.current_shift.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd":6:7:6:19|Synthesizing work.pi_controller.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":5:7:5:11|Synthesizing work.timer.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":5:7:5:22|Synthesizing work.phase_controller.behavioral.
+@N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":22:20:22:21|Using onehot encoding for type state_type. For example, enumeration readytogo_state is mapped to "100000".
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
+@N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":31:8:31:16|Input error_pin is unused.
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
-@N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
+@N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
 @N|Running in 64-bit mode
 

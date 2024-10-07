@@ -28,5 +28,5 @@
 @P: MAIN I/O primitives : 13
 @P: MAIN I/O Register bits : 0
 @P: MAIN Register bits (Non I/O) : 619 (11%)
-@P: MAIN Total Luts : 1340 (25%)
+@P: MAIN Total Luts : 1342 (25%)
 @P:  CPU Time : 0h:00m:01s

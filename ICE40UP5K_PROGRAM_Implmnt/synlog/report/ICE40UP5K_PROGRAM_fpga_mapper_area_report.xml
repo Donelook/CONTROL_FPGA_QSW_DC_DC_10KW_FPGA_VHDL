@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\synlog\report\ICE40UP5K_PROGRAM_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\report\ICE40UP5K_PROGRAM_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total PADS used" name="PADS">
-<data>14</data>
+<data>17</data>
 </parameter>
 <parameter tooltip="Total FLOPS used" name="FLOPS">
 <data>619</data>
@@ -21,6 +21,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>867</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTS used" name="LUTS">
-<data>1340</data>
+<data>1342</data>
 </parameter>
 </report_table>

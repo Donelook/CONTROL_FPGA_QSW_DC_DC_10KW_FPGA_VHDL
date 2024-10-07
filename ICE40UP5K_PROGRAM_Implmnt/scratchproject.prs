@@ -1,29 +1,29 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\scratchproject.prs
+#--  Project file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\scratchproject.prs
 
 #project files
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/MAIN.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/PI_CONTROLLER.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/PWM_GENERATOR.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/current_shift.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/delay_measurement.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/phase_controller.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/stoper.vhd"
-add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/timer.vhd"
-add_file -verilog "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/ICE40_MAIN_PROGRAM_100MHZ_pll.v"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/MAIN.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/PI_CONTROLLER.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/PWM_GENERATOR.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/current_shift.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/delay_measurement.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/phase_controller.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/stoper.vhd"
+add_file -vhdl -lib work "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/timer.vhd"
+add_file -verilog "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/ICE40_MAIN_PROGRAM_100MHZ_pll.v"
 
 
 
 #implementation: "ICE40UP5K_PROGRAM_Implmnt"
-impl -add "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt" -type fpga
+impl -add "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt" -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/}
+set_option -include_path {C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/}
 
 #device options
 set_option -technology SBTiCE40UP
@@ -73,5 +73,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/ICE40UP5K_PROGRAM/ICE40UP5K_PROGRAM_Implmnt/ICE40UP5K_PROGRAM.edf"
+project -result_file "C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/ICE40UP5K_PROGRAM_Implmnt/ICE40UP5K_PROGRAM.edf"
 impl -active "ICE40UP5K_PROGRAM_Implmnt"

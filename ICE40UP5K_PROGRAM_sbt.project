@@ -32,7 +32,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=ICE40UP5K_PROGRAM
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=MAIN.vhd=work,PI_CONTROLLER.vhd,PWM_GENERATOR.vhd,current_shift.vhd,delay_measurement.vhd,phase_controller.vhd,stoper.vhd,timer.vhd,ICE40_MAIN_PROGRAM_100MHZ_pll.v
+ProjectVFiles=MAIN.vhd=work,PI_CONTROLLER.vhd=work,PWM_GENERATOR.vhd=work,current_shift.vhd=work,delay_measurement.vhd=work,phase_controller.vhd=work,stoper.vhd=work,timer.vhd=work,ICE40_MAIN_PROGRAM_100MHZ_pll.v=work
 ProjectCFiles=
 CurImplementation=ICE40UP5K_PROGRAM_Implmnt
 Implementations=ICE40UP5K_PROGRAM_Implmnt

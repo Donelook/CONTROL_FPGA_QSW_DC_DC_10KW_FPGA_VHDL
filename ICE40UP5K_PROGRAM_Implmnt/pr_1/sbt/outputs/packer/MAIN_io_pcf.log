@@ -1,3 +1,5 @@
+INPUT  start_stop 	 location (18, 0, 1) 	 21 	 
+OUTPUT s2_phy 	 location (13, 31, 1) 	 34 	 
 OUTPUT s3_phy 	 location (9, 31, 1) 	 36 	 
 INPUT  il_min_comp2 	 location (7, 0, 0) 	 48 	 
 INPUT  il_max_comp1 	 location (8, 0, 0) 	 2 	 
@@ -6,8 +8,9 @@ INPUT  reset 	 location (19, 0, 1) 	 20
 INPUT  il_min_comp1 	 location (9, 0, 1) 	 3 	 
 INPUT  delay_tr_input 	 location (15, 0, 0) 	 9 	 
 OUTPUT s4_phy 	 location (8, 31, 1) 	 38 	 
-INPUT  start_stop 	 location (18, 0, 1) 	 21 	 
-OUTPUT s2_phy 	 location (13, 31, 1) 	 34 	 
+OUTPUT rgb_g 	 location (5, 31, 0) 	 40 	 
+OUTPUT rgb_r 	 location (4, 31, 0) 	 39 	 
+OUTPUT rgb_b 	 location (6, 31, 0) 	 41 	 
 OUTPUT pwm_output 	 location (22, 0, 1) 	 18 	 
 INPUT  il_max_comp2 	 location (5, 0, 0) 	 46 	 
 INPUT  delay_hc_input 	 location (17, 0, 0) 	 11 	 

@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-42SL8KH
 
-# Wed Sep 25 17:55:34 2024
+# Thu Oct 03 21:45:37 2024
 
 #Implementation: ICE40UP5K_PROGRAM_Implmnt
 
@@ -16,23 +16,16 @@ Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Top entity is set to MAIN.
-@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":208:13:208:18|s1_phy is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":209:13:209:18|s3_phy is not readable.  This may cause a simulation mismatch.
+@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Top entity is set to MAIN.
+@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":242:13:242:18|s1_phy is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":243:13:243:18|s3_phy is not readable.  This may cause a simulation mismatch.
 VHDL syntax check successful!
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\timer.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\stoper.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PI_CONTROLLER.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PWM_GENERATOR.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\phase_controller.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\delay_measurement.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\current_shift.vhd changed - recompiling
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -44,89 +37,84 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v" (library work)
+@I::"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v" (library work)
 Verilog syntax check successful!
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Top entity is set to MAIN.
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\timer.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\stoper.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PI_CONTROLLER.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PWM_GENERATOR.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\phase_controller.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\delay_measurement.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\current_shift.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd changed - recompiling
-@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":208:13:208:18|s1_phy is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":209:13:209:18|s3_phy is not readable.  This may cause a simulation mismatch.
+@N:"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Top entity is set to MAIN.
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd changed - recompiling
+File C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":242:13:242:18|s1_phy is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":243:13:243:18|s3_phy is not readable.  This may cause a simulation mismatch.
 VHDL syntax check successful!
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\timer.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\stoper.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PI_CONTROLLER.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\PWM_GENERATOR.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\phase_controller.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\delay_measurement.vhd changed - recompiling
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\current_shift.vhd changed - recompiling
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":21:7:21:10|Synthesizing work.main.behavioral.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":53:11:53:20|Signal osc_enable is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":54:11:54:21|Signal osc_powerup is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":127:11:127:18|Signal pwm_out1 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":127:21:127:28|Signal pwm_out2 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":136:11:136:17|Signal freq_s1 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":137:11:137:17|Signal freq_s3 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":138:11:138:24|Signal phase_shift_ns is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PWM_GENERATOR.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Synthesizing work.main.behavioral.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":61:11:61:20|Signal osc_enable is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":62:11:62:21|Signal osc_powerup is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":155:11:155:18|Signal pwm_out1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":155:21:155:28|Signal pwm_out2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":164:11:164:17|Signal freq_s1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":165:11:165:17|Signal freq_s3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":166:11:166:24|Signal phase_shift_ns is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":174:8:174:17|Signal enable_rgb is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavioral.
 Post processing for work.pwm_generator.behavioral
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":7:7:7:19|Synthesizing work.current_shift.behavioral.
-@W: CD434 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":156:12:156:14|Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":52:11:52:24|Signal start_timer_s3 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":53:11:53:23|Signal stop_timer_s3 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":59:11:59:28|Signal elapsed_time_ns_s3 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":65:11:65:27|Signal phase_shift_ratio is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":68:11:68:27|Signal s1_freq_completed is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd":6:7:6:19|Synthesizing work.pi_controller.behavioral.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":7:7:7:19|Synthesizing work.current_shift.behavioral.
+@W: CD434 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":156:12:156:14|Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":52:11:52:24|Signal start_timer_s3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":53:11:53:23|Signal stop_timer_s3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":59:11:59:28|Signal elapsed_time_ns_s3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":65:11:65:27|Signal phase_shift_ratio is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":68:11:68:27|Signal s1_freq_completed is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd":6:7:6:19|Synthesizing work.pi_controller.behavioral.
 Post processing for work.pi_controller.behavioral
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register anti_windup_1(31 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register prev_error_3(31 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register int_term_1(31 downto 0). Make sure that there are no unused intermediate registers.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":5:7:5:11|Synthesizing work.timer.behavioral.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register anti_windup_1(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register prev_error_3(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd":35:8:35:9|Pruning unused register int_term_1(31 downto 0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":5:7:5:11|Synthesizing work.timer.behavioral.
 Post processing for work.timer.behavioral
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":30:8:30:9|Pruning unused register elapsed_ticks_3(31 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL271 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":30:8:30:9|Pruning unused bits 31 to 30 of counter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":30:8:30:9|Pruning unused register elapsed_ticks_3(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":30:8:30:9|Pruning unused bits 31 to 30 of counter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Post processing for work.current_shift.behavioral
-@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Feedback mux created for signal stop_timer_phase. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Input data for signal stop_timer_phase contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
-@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Feedback mux created for signal start_timer_phase. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Input data for signal start_timer_phase contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
-@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Feedback mux created for signal phase_bufor. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Input data for signal phase_bufor contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":5:7:5:22|Synthesizing work.phase_controller.behavioral.
-@N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":22:20:22:21|Using onehot encoding for type state_type. For example, enumeration readytogo_state is mapped to "100000".
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
+@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Feedback mux created for signal stop_timer_phase. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Input data for signal stop_timer_phase contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Feedback mux created for signal start_timer_phase. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Input data for signal start_timer_phase contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@W: CL113 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Feedback mux created for signal phase_bufor. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL116 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Input data for signal phase_bufor contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":5:7:5:22|Synthesizing work.phase_controller.behavioral.
+@N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":22:20:22:21|Using onehot encoding for type state_type. For example, enumeration readytogo_state is mapped to "100000".
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
 Post processing for work.stoper.behavioral
-@A: CL282 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\stoper.vhd":28:8:28:9|Feedback mux created for signal target_ticks[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Feedback mux created for signal target_ticks[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 Post processing for work.phase_controller.behavioral
-@W: CL111 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":66:8:66:9|All reachable assignments to state_error are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
-@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
-@W: CG296 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":64:4:64:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":86:11:86:25|Referenced variable elapsed_time_tr is not in sensitivity list.
-@W: CG296 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":92:4:92:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":113:11:113:25|Referenced variable elapsed_time_hc is not in sensitivity list.
+@W: CL111 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|All reachable assignments to state_error are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
+@W: CG296 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":64:4:64:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":86:11:86:25|Referenced variable elapsed_time_tr is not in sensitivity list.
+@W: CG296 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":92:4:92:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":113:11:113:25|Referenced variable elapsed_time_hc is not in sensitivity list.
 Post processing for work.delay_measurement.behavioral
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":94:8:94:9|Pruning unused register prev_delay_hc_1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":66:8:66:9|Pruning unused register prev_delay_tr_1. Make sure that there are no unused intermediate registers.
-@W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":113:8:113:9|Latch generated from process for signal delay_hc(31 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd":86:8:86:9|Latch generated from process for signal delay_tr(31 downto 0); possible missing assignment in an if or case statement.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":94:8:94:9|Pruning unused register prev_delay_hc_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":66:8:66:9|Pruning unused register prev_delay_tr_1. Make sure that there are no unused intermediate registers.
+@W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":113:8:113:9|Latch generated from process for signal delay_hc(31 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":86:8:86:9|Latch generated from process for signal delay_tr(31 downto 0); possible missing assignment in an if or case statement.
 Post processing for work.main.behavioral
-@W: CL279 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\stoper.vhd":28:8:28:9|Pruning register bits 31 to 29 of target_ticks(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":66:8:66:9|Trying to extract state machine for register state.
+@W: CL279 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Pruning register bits 31 to 29 of target_ticks(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 5 reachable states with original encodings of:
    000001
@@ -134,20 +122,20 @@ State machine has 5 reachable states with original encodings of:
    000100
    001000
    010000
-@W: CL249 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd":66:8:66:9|Initial value is not supported on state machine state
-@W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":30:8:30:9|Optimizing register bit elapsed_time_ns(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd":30:8:30:9|Pruning register bit 0 of elapsed_time_ns(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Optimizing register bit stop_timer_phase to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Pruning unused register stop_timer_phase. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd":135:8:135:9|Pruning unused register phase_bufor. Make sure that there are no unused intermediate registers.
-@W: CL246 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PWM_GENERATOR.vhd":9:8:9:17|Input port bits 31 to 28 of duty_input(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":27:8:27:16|Input error_pin is unused.
+@W: CL249 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|Initial value is not supported on state machine state
+@W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":30:8:30:9|Optimizing register bit elapsed_time_ns(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd":30:8:30:9|Pruning register bit 0 of elapsed_time_ns(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Optimizing register bit stop_timer_phase to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Pruning unused register stop_timer_phase. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Pruning unused register phase_bufor. Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd":9:8:9:17|Input port bits 31 to 28 of duty_input(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":31:8:31:16|Input error_pin is unused.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
@@ -155,32 +143,34 @@ Process completed successfully.
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v" (library work)
+@I::"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v" (library work)
 Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
 
-@N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
+@N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
 
-@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":14:61:14:61|Input EXTFEEDBACK on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":15:62:15:62|Input DYNAMICDELAY on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":18:65:18:65|Input LATCHINPUTVALUE on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":20:53:20:53|Input SDI on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40_MAIN_PROGRAM_100MHZ_pll.v":22:54:22:54|Input SCLK on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":14:61:14:61|Input EXTFEEDBACK on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":15:62:15:62|Input DYNAMICDELAY on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":18:65:18:65|Input LATCHINPUTVALUE on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":20:53:20:53|Input SDI on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":22:54:22:54|Input SCLK on instance ICE40_MAIN_PROGRAM_100MHZ_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-@W: Z198 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd":146:4:146:6|Unbound component SB_HFOSC of instance osc 
 
 =======================================================================================
 For a summary of linker messages for components that did not bind, please see log file:
-@L: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_comp.linkerlog
+@L: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_comp.linkerlog
 =======================================================================================
 
 
@@ -189,7 +179,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 @END
@@ -199,22 +189,22 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Sep 25 17:55:35 2024
+# Thu Oct 03 21:45:38 2024
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_comp.srs changed - recompiling
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Sep 25 17:55:36 2024
+# Thu Oct 03 21:45:39 2024
 
 ###########################################################]
-# Wed Sep 25 17:55:36 2024
+# Thu Oct 03 21:45:39 2024
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -223,8 +213,8 @@ Product Version L-2016.09L+ice40
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
 
 @A: MF827 |No constraint file specified.
-@L: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM_scck.rpt 
-Printing clock  summary report in "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM_scck.rpt" file 
+@L: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM_scck.rpt 
+Printing clock  summary report in "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
@@ -239,9 +229,9 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
 
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|Removing sequential instance elapsed_time_ns_1[31:1] (in view: work.timer_2(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN115 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":86:4:86:14|Removing instance timer_phase (in view: work.CURRENT_SHIFT(behavioral)) of type view:work.timer_2(behavioral) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":135:8:135:9|Removing sequential instance start_timer_phase (in view: work.CURRENT_SHIFT(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Removing sequential instance elapsed_time_ns_1[31:1] (in view: work.timer_2(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\current_shift.vhd":86:4:86:14|Removing instance timer_phase (in view: work.CURRENT_SHIFT(behavioral)) of type view:work.timer_2(behavioral) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\current_shift.vhd":135:8:135:9|Removing sequential instance start_timer_phase (in view: work.CURRENT_SHIFT(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
@@ -266,12 +256,12 @@ System                                                       100.0 MHz     10.00
 phase_controller_1|S1_derived_clock                          100.5 MHz     9.948         derived (from ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock)     Inferred_clkgroup_0     2    
 ==================================================================================================================================================================================================
 
-@W: MT531 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":113:8:113:9|Found signal identified as System clock which controls 64 sequential elements including delay_measurement_inst.delay_hc[31:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
-@W: MT529 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":66:8:66:9|Found inferred clock MAIN|delay_tr_input which controls 2 sequential elements including delay_measurement_inst.start_timer_tr. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
-@W: MT529 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":94:8:94:9|Found inferred clock MAIN|delay_hc_input which controls 2 sequential elements including delay_measurement_inst.start_timer_hc. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT531 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":113:8:113:9|Found signal identified as System clock which controls 64 sequential elements including delay_measurement_inst.delay_hc[31:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":66:8:66:9|Found inferred clock MAIN|delay_tr_input which controls 2 sequential elements including delay_measurement_inst.start_timer_tr. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":94:8:94:9|Found inferred clock MAIN|delay_hc_input which controls 2 sequential elements including delay_measurement_inst.start_timer_hc. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.sap.
+@N: BN225 |Writing default property annotation file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
 
@@ -289,10 +279,10 @@ original code -> new code
    000100 -> 00100
    001000 -> 01000
    010000 -> 10000
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[28] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[29] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[30] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[31] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[28] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[29] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[30] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[31] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 None
 None
 
@@ -303,10 +293,10 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 51MB peak: 137MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Sep 25 17:55:36 2024
+# Thu Oct 03 21:45:39 2024
 
 ###########################################################]
-# Wed Sep 25 17:55:37 2024
+# Thu Oct 03 21:45:39 2024
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -336,52 +326,52 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.counter[29:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.counter[29:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_hc is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_tr is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_hc is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_tr is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.counter[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.target_ticks[28:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.start_latched is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.counter[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.target_ticks[28:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.start_latched is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_hc is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_flag is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_tr is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.counter[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.target_ticks[28:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.start_latched is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.counter[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.target_ticks[28:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.start_latched is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_hc is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_flag is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_tr is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.counter[29:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.running is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.start_timer_s1 is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.stop_timer_s1 is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.integrator[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.error_control[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.output_unclamped[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.prop_term[31:0] is being ignored. 
-@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pwm_generator.vhd":28:8:28:9|User-specified initial value defined for instance pwm_generator_inst.counter[9:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_tr_timer.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance delay_measurement_inst.delay_hc_timer.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":94:8:94:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":66:8:66:9|User-specified initial value defined for instance delay_measurement_inst.stop_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_hc.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst1.stoper_tr.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_flag is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst1.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_hc.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.counter[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.target_ticks[28:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|User-specified initial value defined for instance phase_controller_inst2.stoper_tr.start_latched is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_hc is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_flag is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\phase_controller.vhd":66:8:66:9|User-specified initial value defined for instance phase_controller_inst2.start_timer_tr is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.counter[29:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|User-specified initial value defined for instance current_shift_inst.timer_s1.running is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.start_timer_s1 is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\current_shift.vhd":112:8:112:9|User-specified initial value defined for instance current_shift_inst.stop_timer_s1 is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.integrator[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.error_control[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.output_unclamped[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|User-specified initial value defined for instance current_shift_inst.PI_CTRL.prop_term[31:0] is being ignored. 
+@W: FX1039 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pwm_generator.vhd":28:8:28:9|User-specified initial value defined for instance pwm_generator_inst.counter[9:0] is being ignored. 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
-@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pwm_generator.vhd":28:8:28:9|Found counter in view:work.MAIN(behavioral) instance pwm_generator_inst.counter[9:0] 
-@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":86:8:86:9|Sequential instance delay_measurement_inst.delay_tr[0] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\delay_measurement.vhd":113:8:113:9|Sequential instance delay_measurement_inst.delay_hc[0] is reduced to a combinational gate by constant propagation.
-@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|Found counter in view:work.timer(behavioral) instance counter[29:0] 
+@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pwm_generator.vhd":28:8:28:9|Found counter in view:work.MAIN(behavioral) instance pwm_generator_inst.counter[9:0] 
+@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":86:8:86:9|Sequential instance delay_measurement_inst.delay_tr[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\delay_measurement.vhd":113:8:113:9|Sequential instance delay_measurement_inst.delay_hc[0] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Found counter in view:work.timer(behavioral) instance counter[29:0] 
 Encoding state machine state[0:4] (in view: work.phase_controller_1(behavioral))
 original code -> new code
    000001 -> 00001
@@ -389,7 +379,7 @@ original code -> new code
    000100 -> 00100
    001000 -> 01000
    010000 -> 10000
-@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\stoper.vhd":28:8:28:9|Found counter in view:work.stoper(behavioral) instance counter[31:0] 
+@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|Found counter in view:work.stoper(behavioral) instance counter[31:0] 
 Encoding state machine state[0:4] (in view: work.phase_controller_0(behavioral))
 original code -> new code
    000001 -> 00001
@@ -397,75 +387,75 @@ original code -> new code
    000100 -> 00100
    001000 -> 01000
    010000 -> 10000
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[28] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[29] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[30] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[31] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|Found counter in view:work.timer_2(behavioral) instance counter[29:0] 
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[28] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[29] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[30] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[31] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
+@N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Found counter in view:work.timer_2(behavioral) instance counter[29:0] 
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
 
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[27] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[26] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[25] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[24] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[23] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[22] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[21] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[20] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[19] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[18] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[27] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[26] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[25] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[24] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[23] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[22] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[21] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[20] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[19] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[18] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 145MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 145MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 146MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 145MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 145MB)
-
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pi_controller.vhd":35:8:35:9|Removing sequential instance current_shift_inst.PI_CTRL.integrator[0] (in view: work.MAIN(behavioral)) because it does not drive other instances.
-
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 145MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 146MB)
+
+@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance current_shift_inst.PI_CTRL.integrator[0] (in view: work.MAIN(behavioral)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    -6.11ns		1393 /       617
-   2		0h:00m:00s		    -6.11ns		1393 /       617
-   3		0h:00m:00s		    -6.11ns		1393 /       617
-@N: FX271 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\timer.vhd":30:8:30:9|Replicating instance current_shift_inst.timer_s1.elapsed_time_ns_1[31] (in view: work.MAIN(behavioral)) with 30 loads 2 times to improve timing.
+   1		0h:00m:00s		    -6.11ns		1395 /       617
+   2		0h:00m:00s		    -6.11ns		1395 /       617
+   3		0h:00m:00s		    -6.11ns		1395 /       617
+@N: FX271 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Replicating instance current_shift_inst.timer_s1.elapsed_time_ns_1[31] (in view: work.MAIN(behavioral)) with 30 loads 2 times to improve timing.
 Timing driven replication report
 Added 2 Registers via timing driven replication
 Added 0 LUTs via timing driven replication
 
-   4		0h:00m:00s		    -6.11ns		1393 /       619
-   5		0h:00m:00s		    -5.24ns		1393 /       619
+   4		0h:00m:00s		    -6.11ns		1395 /       619
+   5		0h:00m:00s		    -5.24ns		1395 /       619
 
 
-   6		0h:00m:00s		    -5.24ns		1393 /       619
-Assigned 1100 out of 3175 signals to level zero using standard method
+   6		0h:00m:00s		    -5.24ns		1395 /       619
+Assigned 1100 out of 3180 signals to level zero using standard method
 Re-levelizing using alternate method
-Assigned 0 out of 3175 signals to level zero using alternate method
-@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\main.vhd":36:8:36:21|SB_GB_IO inserted on the port delay_tr_input.
-@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\main.vhd":37:8:37:21|SB_GB_IO inserted on the port delay_hc_input.
-@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\main.vhd":25:8:25:12|SB_GB_IO inserted on the port reset.
+Assigned 0 out of 3180 signals to level zero using alternate method
+@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":40:8:40:21|SB_GB_IO inserted on the port delay_tr_input.
+@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":41:8:41:21|SB_GB_IO inserted on the port delay_hc_input.
+@N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":29:8:29:12|SB_GB_IO inserted on the port reset.
 @N: FX1017 :|SB_GB inserted on the net N_163_i.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst2.stoper_tr.un2_start_0.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst1.stoper_tr.un2_start_0.
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
 
 Warning: Found 62 combinational loops!
          Loop details will only be printed for 100 loops.
@@ -625,7 +615,7 @@ Warning: Found 62 combinational loops!
 62) instance delay_measurement_inst.delay_hc_latch[30] (in view: work.MAIN(behavioral)), output net measured_delay_hc[30] (in view: work.MAIN(behavioral))
 End of loops
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
 
 @N: MT611 :|Automatically generated clock ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTCORE_derived_clock is not used and is being removed
 @N: MT611 :|Automatically generated clock phase_controller_1|S1_derived_clock is not used and is being removed
@@ -656,16 +646,16 @@ Clock Tree ID     Driving Element                                 Drive Element 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 115MB peak: 146MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 146MB)
 
-Writing Analyst data base C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_m.srm
+Writing Analyst data base C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 146MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
-@N: FX1056 |Writing EDF file: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.edf
+@N: FX1056 |Writing EDF file: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.edf
 L-2016.09L+ice40
 
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
@@ -1110,7 +1100,8 @@ Warning: Found 62 combinational loops!
     output pin delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIF13T9[3]/O
     net        delay_measurement_inst.delay_hc_timer.measured_delay_hc[3]
 End of loops
-@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\ice40up5k_program\pwm_generator.vhd":54:25:54:39|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":264:8:264:14|Blackbox SB_RGBA_DRV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pwm_generator.vhd":54:25:54:39|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock MAIN|delay_tr_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_tr_input"
 @W: MT420 |Found inferred clock MAIN|delay_hc_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_hc_input"
 @W: MT420 |Found inferred clock MAIN|clk_12mhz_inferred_clock with period 83.32ns. Please declare a user-defined clock on object "n:clk_12mhz"
@@ -1118,7 +1109,7 @@ End of loops
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Sep 25 17:55:38 2024
+# Timing Report written on Thu Oct 03 21:45:41 2024
 #
 
 
@@ -3158,12 +3149,13 @@ SB_DFFS         2 uses
 SB_GB           3 uses
 SB_HFOSC        1 use
 SB_PLL40_CORE   1 use
+SB_RGBA_DRV     1 use
 VCC             14 uses
 SB_MAC16            6 uses
   MULTONLY  6 uses
-SB_LUT4         1340 uses
+SB_LUT4         1342 uses
 
-I/O ports: 14
+I/O ports: 17
 I/O primitives: 13
 SB_GB_IO       3 uses
 SB_IO          10 uses
@@ -3177,16 +3169,16 @@ Total load per clock:
    ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock: 615
 
 @S |Mapping Summary:
-Total  LUTs: 1340 (25%)
+Total  LUTs: 1342 (25%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 1340 = 1340 
+Distribution of All Consumed Luts 1342 = 1342 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 33MB peak: 146MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 34MB peak: 146MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Sep 25 17:55:38 2024
+# Thu Oct 03 21:45:41 2024
 
 ###########################################################]

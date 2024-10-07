@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-mixedhdl|-top|MAIN|-layerid|0|-orig_srs|C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\ICE40UP5K_PROGRAM_Implmnt\\synwork\\ICE40UP5K_PROGRAM_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-mixedhdl|-top|MAIN|-layerid|0|-orig_srs|C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\ICE40UP5K_PROGRAM_Implmnt\\synwork\\ICE40UP5K_PROGRAM_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1717163150
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1717163153
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1717163153
@@ -10,22 +10,22 @@
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1717163153
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1717163153
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1717163153
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\MAIN.vhd":1727208403
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\PI_CONTROLLER.vhd":1725708564
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\PWM_GENERATOR.vhd":1727207188
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\current_shift.vhd":1727208401
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\delay_measurement.vhd":1723813553
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\phase_controller.vhd":1726602876
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\stoper.vhd":1726602975
-#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\ICE40UP5K_PROGRAM\\timer.vhd":1727042902
-0 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\MAIN.vhd" vhdl
-1 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PI_CONTROLLER.vhd" vhdl
-2 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\PWM_GENERATOR.vhd" vhdl
-3 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\current_shift.vhd" vhdl
-4 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\delay_measurement.vhd" vhdl
-5 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\phase_controller.vhd" vhdl
-6 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\stoper.vhd" vhdl
-7 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\timer.vhd" vhdl
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\MAIN.vhd":1727984707
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\PI_CONTROLLER.vhd":1725708564
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\PWM_GENERATOR.vhd":1727207188
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\current_shift.vhd":1727208401
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\delay_measurement.vhd":1723813553
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\phase_controller.vhd":1726602876
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\stoper.vhd":1726602975
+#CUR:"C:\\Users\\Michal\\Documents\\Magisterka\\Magisterka dokumenty wyjsciowe\\FPGA\\PROGRAM\\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\\timer.vhd":1727042902
+0 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd" vhdl
+1 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PI_CONTROLLER.vhd" vhdl
+2 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd" vhdl
+3 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd" vhdl
+4 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd" vhdl
+5 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd" vhdl
+6 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd" vhdl
+7 "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\timer.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 4 5 3 2 
@@ -66,5 +66,6 @@ arch work timer behavioral 7
 module work timer 7
 
 # Unbound Instances to File Association
+inst work main sb_rgba_drv 0
 inst work main ice40_main_program_100mhz_pll 0
 inst work main sb_hfosc 0
