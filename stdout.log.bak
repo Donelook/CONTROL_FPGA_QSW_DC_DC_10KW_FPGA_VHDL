@@ -1,13 +1,15 @@
 Running in Lattice mode
 
-Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synplify.exe
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\iCEcube2.2020.12\synpbase
 Hostname:    DESKTOP-42SL8KH
-Date:        Thu Oct 03 21:26:56 2024
+Date:        Thu Oct 03 21:45:37 2024
 Version:     L-2016.09L+ice40
 
-Arguments:   -product synplify_pro ICE40UP5K_PROGRAM_syn.prj
+Arguments:   -product synplify_pro -batch ICE40UP5K_PROGRAM_syn.prj
 ProductType: synplify_pro
+
 
 
 
@@ -19,234 +21,26 @@ Running: ICE40UP5K_PROGRAM_Implmnt in foreground
 Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
 
 Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:26:56 2024
+# Thu Oct 03 21:45:37 2024
 
 Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:26:56 2024
+# Thu Oct 03 21:45:37 2024
 
 Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:26:56 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:26:56 2024
-
-Return Code: 2
-Run Time:00h:00m:00s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-New HDL Analyst: enabled
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:37 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:37 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:37 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:40:37 2024
-
-Return Code: 2
-Run Time:00h:00m:00s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:43 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:43 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:43 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:40:44 2024
-
-Return Code: 2
-Run Time:00h:00m:01s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:53 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:53 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:40:53 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:40:53 2024
-
-Return Code: 2
-Run Time:00h:00m:00s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:41:50 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:41:50 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:41:50 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:41:50 2024
-
-Return Code: 2
-Run Time:00h:00m:00s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:42:18 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:42:18 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:42:18 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:42:18 2024
-
-Return Code: 2
-Run Time:00h:00m:00s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:23 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:23 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:23 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:43:24 2024
-
-Return Code: 2
-Run Time:00h:00m:01s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:44 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:44 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:43:44 2024
-compiler exited with errors
-Job failed on: ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\ICE40UP5K_PROGRAM_compiler.srr"
-# Thu Oct 03 21:43:45 2024
-
-Return Code: 2
-Run Time:00h:00m:01s
-Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-Opening object source file c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd
-log file: "C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srr"
-Running: ICE40UP5K_PROGRAM_Implmnt in foreground
-
-Running ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-
-Running: compile (Compile) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:09 2024
-
-Running: compile_flow (Compile Process) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:09 2024
-
-Running: compiler (Compile Input) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:09 2024
+# Thu Oct 03 21:45:37 2024
 Copied C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_comp.srs to C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srs
 
 compiler completed
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 
 multi_srs_gen completed
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 
 Return Code: 0
 Run Time:00h:00m:00s
@@ -254,27 +48,32 @@ Copied C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\
 Complete: Compile Process on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
 
 Running: premap (Pre-mapping) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 
 premap completed with warnings
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 
 Return Code: 1
 Run Time:00h:00m:00s
 Complete: Compile on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
 
 Running: map (Map) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
+License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-# Thu Oct 03 21:45:11 2024
+# Thu Oct 03 21:45:39 2024
 Copied C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_m.srm to C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.srm
 
 fpga_mapper completed with warnings
-# Thu Oct 03 21:45:13 2024
+# Thu Oct 03 21:45:41 2024
 
 Return Code: 1
 Run Time:00h:00m:02s
 Complete: Map on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
 Complete: Logic Synthesis on ICE40UP5K_PROGRAM_syn|ICE40UP5K_PROGRAM_Implmnt
-exit status=2
+
+exit status=0
+
+exit status=0
+

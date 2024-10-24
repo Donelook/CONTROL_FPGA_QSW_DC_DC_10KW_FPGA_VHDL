@@ -3,17 +3,13 @@
 @N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pwm_generator.vhd":28:8:28:9|Found counter in view:work.MAIN(behavioral) instance pwm_generator_inst.counter[9:0] 
 @N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Found counter in view:work.timer(behavioral) instance counter[29:0] 
 @N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\stoper.vhd":28:8:28:9|Found counter in view:work.stoper(behavioral) instance counter[31:0] 
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[28] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[29] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[30] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[31] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
 @N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Found counter in view:work.timer_2(behavioral) instance counter[29:0] 
 @N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance current_shift_inst.PI_CTRL.integrator[0] (in view: work.MAIN(behavioral)) because it does not drive other instances.
 @N: FX271 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Replicating instance current_shift_inst.timer_s1.elapsed_time_ns_1[31] (in view: work.MAIN(behavioral)) with 30 loads 2 times to improve timing.
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":40:8:40:21|SB_GB_IO inserted on the port delay_tr_input.
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":41:8:41:21|SB_GB_IO inserted on the port delay_hc_input.
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":29:8:29:12|SB_GB_IO inserted on the port reset.
-@N: FX1017 :|SB_GB inserted on the net N_163_i.
+@N: FX1017 :|SB_GB inserted on the net N_153_i.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst2.stoper_tr.un2_start_0.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst1.stoper_tr.un2_start_0.
 @N: MT611 :|Automatically generated clock ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTCORE_derived_clock is not used and is being removed

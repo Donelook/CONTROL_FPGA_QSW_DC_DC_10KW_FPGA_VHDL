@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Oct 3 2024 21:46:28
+* File Generated:     Oct 23 2024 20:10:40
 
 * Purpose:            General info of design implementation
 
@@ -17,7 +17,7 @@
 Synthesis/Placement Summary:
 ----------------------------
     Status:  Successful
-    Runtime: 1 seconds
+    Runtime: 0 seconds
 
 Device Info:
 ------------
@@ -28,7 +28,7 @@ Device Info:
 Design statistics:
 ------------------
     FFs:                  619
-    LUTs:                 1538
+    LUTs:                 1510
     RAMs:                 0
     IOBs:                 13
     GBs:                  6
@@ -40,16 +40,16 @@ Design statistics:
     LFOSCs:               0
     RGBA_DRVs:            1
     LEDDA_IPs:            0
-    DSPs:                 6
+    DSPs:                 4
     SPRAMs:               0
     FILTER_50NSs:         0
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 1614/5280
-        Combinational Logic Cells: 995      out of   5280      18.8447%
+    Total Logic Cells: 1590/5280
+        Combinational Logic Cells: 971      out of   5280      18.3902%
         Sequential Logic Cells:    619      out of   5280      11.7235%
-        Logic Tiles:               287      out of   660       43.4848%
+        Logic Tiles:               304      out of   660       46.0606%
     Registers: 
         Logic Registers:           619      out of   5280      11.7235%
         IO Registers:              0        out of   480       0
@@ -61,7 +61,7 @@ Logic Resource Utilization:
     LFOSCs:                        0        out of   1         0%
     RGBA_DRVs:                     1        out of   1         100%
     LEDDA_IPs:                     0        out of   1         0%
-    DSPs:                          6        out of   8         75%
+    DSPs:                          4        out of   8         50%
     SPRAMs:                        0        out of   4         0%
     FILTER_50NSs:                  0        out of   2         0%
     Pins:
@@ -110,7 +110,7 @@ Detailed Global Buffer Info:
     6              2                   2       delay_hc_input_c_g                              
     3              0                   32      phase_controller_inst1.stoper_tr.un2_start_0_g  
     5              2                   32      phase_controller_inst2.stoper_tr.un2_start_0_g  
-    1              0                   33      current_shift_inst.timer_s1.N_163_i_g           
+    1              0                   33      current_shift_inst.timer_s1.N_153_i_g           
 
 
 Router Summary:
@@ -120,9 +120,9 @@ Router Summary:
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile    10604 out of 110555      9.59161%
-                          Span 4     2192 out of  23008      9.52712%
-                         Span 12      504 out of   4464      11.2903%
+              Local line of tile    10425 out of 110555      9.4297%
+                          Span 4     2077 out of  23008      9.0273%
+                         Span 12      476 out of   4464      10.6631%
                   Global network        8 out of      8      100%
-      Vertical Inter-LUT Connect       66 out of   4620      1.42857%
+      Vertical Inter-LUT Connect       69 out of   4620      1.49351%
 

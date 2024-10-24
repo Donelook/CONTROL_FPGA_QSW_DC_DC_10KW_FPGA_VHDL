@@ -19,7 +19,7 @@ architecture Behavioral of PWM_GENERATOR is
 
     -- Signals
     signal counter   : integer range 0 to MAX_COUNT := 0;
-    signal threshold : integer range 0 to MAX_COUNT := 0;
+    signal threshold : integer range 0 to MAX_COUNT := 0; -- threshold is number thicks when pwm is turn off - duty cycle 
 begin
 
     -- Process for PWM generation
@@ -51,7 +51,7 @@ begin
         -- 0 corresponds to 45% duty cycle (half the MAX_COUNT)
         -- -1000 corresponds to 6% duty cycle, 1000 to 84% duty cycle 0.2Vavg to 2.8Vavg
         
-         threshold <= (((duty_input * 80) + 92160) * MAX_COUNT) / 131072; -- 80 * 1.024 and 92160 is scaled value of 90000
+         threshold <= ((duty_input * 399) + 460800) / 1024; -- 
     end process;
 end Behavioral;
 

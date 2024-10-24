@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     Oct 3 2024 21:45:52
+* File Generated:     Oct 23 2024 20:10:01
 
 * Purpose:            
 
@@ -35,10 +35,10 @@ I2053: Starting placement of the design
 =============================================================
 
 Input Design Statistics
-    Number of LUTs      	:	1342
+    Number of LUTs      	:	1314
     Number of DFFs      	:	619
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	867
+    Number of Carrys    	:	848
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	10
@@ -48,7 +48,7 @@ Input Design Statistics
     Number of PLLs      	:	1
     Number of I2Cs      	:	0
     Number of SPIs      	:	0
-    Number of DSPs     	:	6
+    Number of DSPs     	:	4
     Number of SBIOODs     	:	0
     Number of LEDDAIPs     	:	0
     Number of RGBADRVs     	:	1
@@ -88,7 +88,7 @@ Phase 3
 Info-1409: Inferred clock at osc/CLKHF
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL
-Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1535", in the clock network. Converting the timing arc to positive-unate
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1507", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_hc_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_tr_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_566/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_566/lcout" to break the combinatorial loop
@@ -155,27 +155,27 @@ Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_time
 Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_710/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_710/lcout" to break the combinatorial loop
 
 Design Statistics after Packing
-    Number of LUTs      	:	1538
+    Number of LUTs      	:	1510
     Number of DFFs      	:	619
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	867
+    Number of Carrys    	:	848
 
 Device Utilization Summary after Packing
     Sequential LogicCells
         LUT and DFF      	:	253
         LUT, DFF and CARRY	:	366
     Combinational LogicCells
-        Only LUT         	:	494
-        CARRY Only       	:	76
-        LUT with CARRY   	:	425
-    LogicCells                  :	1614/5280
-    PLBs                        :	216/660
+        Only LUT         	:	489
+        CARRY Only       	:	80
+        LUT with CARRY   	:	402
+    LogicCells                  :	1590/5280
+    PLBs                        :	211/660
     BRAMs                       :	0/30
     IOs and GBIOs               :	13/36
     PLLs                        :	1/1
     I2Cs                        :	0/2
     SPIs                        :	0/2
-    DSPs                        :	6/8
+    DSPs                        :	4/8
     SBIOODs                     :	0/3
     RGBADRVs                    :	1/1
     LEDDAIPs                    :	0/1
@@ -185,23 +185,23 @@ Device Utilization Summary after Packing
     FILTER50NSs                 :	0/2
 
 
-I2088: Phase 3, elapsed time : 1.2 (sec)
+I2088: Phase 3, elapsed time : 1.1 (sec)
 
 Phase 4
 I2108: 0 SB_IO_I3C instances present in the design. 2 I3C IOs available in the device
 I2088: Phase 4, elapsed time : 0.1 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 4.3 (sec)
+I2088: Phase 5, elapsed time : 4.8 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 27.8 (sec)
+I2088: Phase 6, elapsed time : 28.3 (sec)
 
 Final Design Statistics
-    Number of LUTs      	:	1538
+    Number of LUTs      	:	1510
     Number of DFFs      	:	619
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	867
+    Number of Carrys    	:	848
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	12
@@ -211,7 +211,7 @@ Final Design Statistics
     Number of PLLs      	:	1
     Number of I2Cs      	:	0
     Number of SPIs      	:	0
-    Number of DSPs     	:	6
+    Number of DSPs     	:	4
     Number of SBIOODs     	:	0
     Number of LEDDAIPs     	:	0
     Number of RGBADRVs     	:	1
@@ -221,14 +221,14 @@ Final Design Statistics
     Number of SPRAMs     	:	0
 
 Device Utilization Summary
-    LogicCells                  :	1614/5280
-    PLBs                        :	287/660
+    LogicCells                  :	1590/5280
+    PLBs                        :	304/660
     BRAMs                       :	0/30
     IOs and GBIOs               :	13/36
     PLLs                        :	1/1
     I2Cs                        :	0/2
     SPIs                        :	0/2
-    DSPs                        :	6/8
+    DSPs                        :	4/8
     SBIOODs                     :	0/3
     RGBADRVs                    :	1/1
     LEDDAIPs                    :	0/1
@@ -255,7 +255,7 @@ Clock: MAIN|delay_hc_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: MAIN|delay_tr_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: osc/CLKHF | Frequency: N/A | Target: 12.00 MHz
 Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE | Frequency: N/A | Target: 100.50 MHz
-Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 27.68 MHz | Target: 100.50 MHz
+Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 31.88 MHz | Target: 100.50 MHz
 
 =====================================================================
                      End of Clock Summary
@@ -263,5 +263,5 @@ Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 27.
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 34.1 sec.
+I2076: Placer run-time: 35.1 sec.
 

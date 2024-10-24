@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-42SL8KH
 
-# Thu Oct 03 21:45:37 2024
+# Wed Oct 23 20:09:44 2024
 
 #Implementation: ICE40UP5K_PROGRAM_Implmnt
 
@@ -20,12 +20,13 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":242:13:242:18|s1_phy is not readable.  This may cause a simulation mismatch.
 @W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":243:13:243:18|s3_phy is not readable.  This may cause a simulation mismatch.
 VHDL syntax check successful!
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd changed - recompiling
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -44,7 +45,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
@@ -61,6 +62,7 @@ File C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd c
 @W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":242:13:242:18|s1_phy is not readable.  This may cause a simulation mismatch.
 @W: CD266 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":243:13:243:18|s3_phy is not readable.  This may cause a simulation mismatch.
 VHDL syntax check successful!
+File C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd changed - recompiling
 @N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":25:7:25:10|Synthesizing work.main.behavioral.
 @W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":61:11:61:20|Signal osc_enable is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":62:11:62:21|Signal osc_powerup is undriven. Either assign the signal a value or remove the signal declaration.
@@ -128,14 +130,13 @@ State machine has 5 reachable states with original encodings of:
 @W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Optimizing register bit stop_timer_phase to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Pruning unused register stop_timer_phase. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\current_shift.vhd":135:8:135:9|Pruning unused register phase_bufor. Make sure that there are no unused intermediate registers.
-@W: CL246 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\PWM_GENERATOR.vhd":9:8:9:17|Input port bits 31 to 28 of duty_input(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
 @N: CL159 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\MAIN.vhd":31:8:31:16|Input error_pin is unused.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
 
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
@@ -145,9 +146,6 @@ Process completed successfully.
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v" (library work)
 Verilog syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
 
 @N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
@@ -162,7 +160,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -179,7 +177,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 @END
@@ -189,7 +187,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 03 21:45:38 2024
+# Wed Oct 23 20:09:45 2024
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -201,10 +199,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 03 21:45:39 2024
+# Wed Oct 23 20:09:46 2024
 
 ###########################################################]
-# Thu Oct 03 21:45:39 2024
+Pre-mapping Report
+
+# Wed Oct 23 20:09:47 2024
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -279,24 +279,22 @@ original code -> new code
    000100 -> 00100
    001000 -> 01000
    010000 -> 10000
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[28] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[29] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[30] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance control_out[31] (in view: work.PI_CONTROLLER(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
 Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 51MB peak: 137MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Oct 03 21:45:39 2024
+# Wed Oct 23 20:09:47 2024
 
 ###########################################################]
-# Thu Oct 03 21:45:39 2024
+Map & Optimize Report
+
+# Wed Oct 23 20:09:47 2024
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -387,75 +385,70 @@ original code -> new code
    000100 -> 00100
    001000 -> 01000
    010000 -> 10000
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[28] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[29] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[30] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
-@N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance PI_CTRL.control_out[31] (in view: work.CURRENT_SHIFT(behavioral)) because it does not drive other instances.
 @N: MO231 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Found counter in view:work.timer_2(behavioral) instance counter[29:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[31] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[30]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[30] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[29] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[28] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[27] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[26] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[25] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[24] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[23] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[22] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[21] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[20] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[19] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing instance current_shift_inst.PI_CTRL.control_out[18] because it is equivalent to instance current_shift_inst.PI_CTRL.control_out[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 146MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 146MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 @N: BN362 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":35:8:35:9|Removing sequential instance current_shift_inst.PI_CTRL.integrator[0] (in view: work.MAIN(behavioral)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    -6.11ns		1395 /       617
-   2		0h:00m:00s		    -6.11ns		1395 /       617
-   3		0h:00m:00s		    -6.11ns		1395 /       617
+   1		0h:00m:00s		    -6.11ns		1364 /       617
+   2		0h:00m:00s		    -6.11ns		1364 /       617
 @N: FX271 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\timer.vhd":30:8:30:9|Replicating instance current_shift_inst.timer_s1.elapsed_time_ns_1[31] (in view: work.MAIN(behavioral)) with 30 loads 2 times to improve timing.
 Timing driven replication report
 Added 2 Registers via timing driven replication
 Added 0 LUTs via timing driven replication
 
-   4		0h:00m:00s		    -6.11ns		1395 /       619
-   5		0h:00m:00s		    -5.24ns		1395 /       619
+   3		0h:00m:00s		    -6.11ns		1364 /       619
+   4		0h:00m:00s		    -5.24ns		1364 /       619
 
 
-   6		0h:00m:00s		    -5.24ns		1395 /       619
-Assigned 1100 out of 3180 signals to level zero using standard method
+   5		0h:00m:00s		    -5.24ns		1364 /       619
+Assigned 1095 out of 3064 signals to level zero using standard method
 Re-levelizing using alternate method
-Assigned 0 out of 3180 signals to level zero using alternate method
+Assigned 0 out of 3064 signals to level zero using alternate method
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":40:8:40:21|SB_GB_IO inserted on the port delay_tr_input.
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":41:8:41:21|SB_GB_IO inserted on the port delay_hc_input.
 @N: FX1016 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":29:8:29:12|SB_GB_IO inserted on the port reset.
-@N: FX1017 :|SB_GB inserted on the net N_163_i.
+@N: FX1017 :|SB_GB inserted on the net N_153_i.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst2.stoper_tr.un2_start_0.
 @N: FX1017 :|SB_GB inserted on the net phase_controller_inst1.stoper_tr.un2_start_0.
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
 
 Warning: Found 62 combinational loops!
          Loop details will only be printed for 100 loops.
@@ -482,25 +475,10 @@ Warning: Found 62 combinational loops!
     net        measured_delay_tr[1]
 @W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[31]
 4) instance delay_measurement_inst.delay_tr_latch[31] (in view: work.MAIN(behavioral)), output net measured_delay_tr[31] (in view: work.MAIN(behavioral))
-    net        measured_delay_tr[31]
-    input  pin delay_measurement_inst.delay_tr_latch[31]/I1
-    instance   delay_measurement_inst.delay_tr_latch[31] (cell SB_LUT4)
-    output pin delay_measurement_inst.delay_tr_latch[31]/O
-    net        measured_delay_tr[31]
 @W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[4]
 5) instance delay_measurement_inst.delay_tr_latch[4] (in view: work.MAIN(behavioral)), output net measured_delay_tr[4] (in view: work.MAIN(behavioral))
-    net        measured_delay_tr[4]
-    input  pin delay_measurement_inst.delay_tr_latch[4]/I1
-    instance   delay_measurement_inst.delay_tr_latch[4] (cell SB_LUT4)
-    output pin delay_measurement_inst.delay_tr_latch[4]/O
-    net        measured_delay_tr[4]
 @W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[5]
 6) instance delay_measurement_inst.delay_tr_latch[5] (in view: work.MAIN(behavioral)), output net measured_delay_tr[5] (in view: work.MAIN(behavioral))
-    net        measured_delay_tr[5]
-    input  pin delay_measurement_inst.delay_tr_latch[5]/I1
-    instance   delay_measurement_inst.delay_tr_latch[5] (cell SB_LUT4)
-    output pin delay_measurement_inst.delay_tr_latch[5]/O
-    net        measured_delay_tr[5]
 @W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[6]
 7) instance delay_measurement_inst.delay_tr_latch[6] (in view: work.MAIN(behavioral)), output net measured_delay_tr[6] (in view: work.MAIN(behavioral))
 @W: BN137 :|Found combinational loop during mapping at net measured_delay_tr[7]
@@ -615,7 +593,7 @@ Warning: Found 62 combinational loops!
 62) instance delay_measurement_inst.delay_hc_latch[30] (in view: work.MAIN(behavioral)), output net measured_delay_hc[30] (in view: work.MAIN(behavioral))
 End of loops
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 @N: MT611 :|Automatically generated clock ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTCORE_derived_clock is not used and is being removed
 @N: MT611 :|Automatically generated clock phase_controller_1|S1_derived_clock is not used and is being removed
@@ -646,11 +624,11 @@ Clock Tree ID     Driving Element                                 Drive Element 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 146MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 145MB)
 
 Writing Analyst data base C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synwork\ICE40UP5K_PROGRAM_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 146MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 145MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -658,10 +636,10 @@ Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\ICE40UP5K_PROGRAM.edf
 L-2016.09L+ice40
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 146MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 145MB)
 
 Warning: Found 62 combinational loops!
          Loop details will only be printed for 100 loops.
@@ -1101,7 +1079,7 @@ Warning: Found 62 combinational loops!
     net        delay_measurement_inst.delay_hc_timer.measured_delay_hc[3]
 End of loops
 @W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\main.vhd":264:8:264:14|Blackbox SB_RGBA_DRV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pwm_generator.vhd":54:25:54:39|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\michal\documents\magisterka\magisterka dokumenty wyjsciowe\fpga\program\control_fpga_qsw_dc_dc_10kw_fpga_vhdl\pi_controller.vhd":54:44:54:61|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock MAIN|delay_tr_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_tr_input"
 @W: MT420 |Found inferred clock MAIN|delay_hc_input with period 10.00ns. Please declare a user-defined clock on object "p:delay_hc_input"
 @W: MT420 |Found inferred clock MAIN|clk_12mhz_inferred_clock with period 83.32ns. Please declare a user-defined clock on object "n:clk_12mhz"
@@ -1109,7 +1087,7 @@ End of loops
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Oct 03 21:45:41 2024
+# Timing Report written on Wed Oct 23 20:09:49 2024
 #
 
 
@@ -1137,7 +1115,7 @@ ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock     100.5 MHz     32.6 
 MAIN|clk_12mhz_inferred_clock                                12.0 MHz      NA            83.320        NA            DCM/PLL     inferred                                         Inferred_clkgroup_0
 MAIN|delay_hc_input                                          100.0 MHz     211.9 MHz     10.000        4.718         5.282       inferred                                         Inferred_clkgroup_2
 MAIN|delay_tr_input                                          100.0 MHz     211.9 MHz     10.000        4.718         5.282       inferred                                         Inferred_clkgroup_1
-System                                                       100.0 MHz     200.4 MHz     10.000        4.991         5.009       system                                           system_clkgroup    
+System                                                       100.0 MHz     73.0 MHz      10.000        13.707        -3.707      system                                           system_clkgroup    
 =====================================================================================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
@@ -1152,8 +1130,7 @@ Clocks                                                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                  Ending                                                    |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                    System                                                    |  10.000      5.009    |  No paths    -      |  No paths    -      |  No paths    -    
-System                                                    ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock  |  9.948       -5.042   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                    ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock  |  9.948       -3.707   |  No paths    -      |  No paths    -      |  No paths    -    
 MAIN|delay_tr_input                                       MAIN|delay_tr_input                                       |  10.000      5.282    |  No paths    -      |  No paths    -      |  No paths    -    
 MAIN|delay_tr_input                                       ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 MAIN|delay_hc_input                                       MAIN|delay_hc_input                                       |  10.000      5.282    |  No paths    -      |  No paths    -      |  No paths    -    
@@ -2537,21 +2514,21 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                                                       Starting                                                     Arrival           
-Instance                                               Reference     Type         Pin       Net                     Time        Slack 
-                                                       Clock                                                                          
---------------------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]     System        SB_MAC16     O[0]      un2_threshold_2[0]      0.000       -5.042
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[15]     un2_threshold_1[15]     0.000       -5.000
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]     System        SB_MAC16     O[1]      un2_threshold_2[1]      0.000       -4.842
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[16]     un2_threshold_1[16]     0.000       -4.800
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[7]      un3_threshold           0.000       -4.707
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]     System        SB_MAC16     O[2]      un2_threshold_2[2]      0.000       -4.642
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[17]     un2_threshold_1[17]     0.000       -4.600
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[8]      O_0[8]                  0.000       -4.507
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]     System        SB_MAC16     O[3]      un2_threshold_2[3]      0.000       -4.442
-pwm_generator_inst.un2_threshold_1_mulonly_0[19:0]     System        SB_MAC16     O[18]     un2_threshold_1[18]     0.000       -4.400
-======================================================================================================================================
+                                                         Starting                                                     Arrival           
+Instance                                                 Reference     Type         Pin       Net                     Time        Slack 
+                                                         Clock                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]     System        SB_MAC16     O[0]      un2_threshold_2[0]      0.000       -3.707
+pwm_generator_inst.un2_threshold_1_mulonly_0[25:0]       System        SB_MAC16     O[15]     un2_threshold_1[15]     0.000       -3.664
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]     System        SB_MAC16     O[1]      un2_threshold_2[1]      0.000       -3.507
+pwm_generator_inst.un2_threshold_1_mulonly_0[25:0]       System        SB_MAC16     O[16]     un2_threshold_1[16]     0.000       -3.464
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]     System        SB_MAC16     O[2]      un2_threshold_2[2]      0.000       -3.307
+pwm_generator_inst.un2_threshold_1_mulonly_0[25:0]       System        SB_MAC16     O[17]     un2_threshold_1[17]     0.000       -3.264
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]     System        SB_MAC16     O[3]      un2_threshold_2[3]      0.000       -3.107
+pwm_generator_inst.un2_threshold_1_mulonly_0[25:0]       System        SB_MAC16     O[18]     un2_threshold_1[18]     0.000       -3.064
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]     System        SB_MAC16     O[4]      un2_threshold_2[4]      0.000       -2.906
+pwm_generator_inst.un2_threshold_1_mulonly_0[25:0]       System        SB_MAC16     O[19]     un2_threshold_1[19]     0.000       -2.864
+========================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -2561,7 +2538,7 @@ Ending Points with Worst Slack
 Instance                                      Reference     Type        Pin     Net                    Time         Slack 
                                               Clock                                                                       
 --------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.pwm_out                    System        SB_DFFR     D       un14_counter_cry_9     9.793        -5.042
+pwm_generator_inst.pwm_out                    System        SB_DFFR     D       un14_counter_cry_9     9.793        -3.707
 current_shift_inst.PI_CTRL.integrator[30]     System        SB_DFFR     D       integrator_4[30]       9.793        -0.462
 current_shift_inst.PI_CTRL.integrator[29]     System        SB_DFFR     D       integrator_4[29]       9.793        -0.262
 current_shift_inst.PI_CTRL.integrator[28]     System        SB_DFFR     D       integrator_4[28]       9.793        -0.062
@@ -2585,13 +2562,13 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.793
 
-    - Propagation time:                      14.836
+    - Propagation time:                      13.500
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -5.042
+    = Slack (non-critical) :                 -3.707
 
-    Number of logic level(s):                27
-    Starting point:                          pwm_generator_inst.un2_threshold_2_mulonly_0[16:0] / O[0]
+    Number of logic level(s):                30
+    Starting point:                          pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0] / O[0]
     Ending point:                            pwm_generator_inst.pwm_out / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
@@ -2599,7 +2576,479 @@ Path information for path number 1:
 Instance / Net                                                            Pin      Pin               Arrival     No. of    
 Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]           SB_MAC16     O[0]     Out     0.000     0.000       -         
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]         SB_MAC16     O[0]     Out     0.000     0.000       -         
+un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
+un2_threshold_add_1_cry_0                                    Net          -        -       0.386     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c_RNI7P701      SB_LUT4      I3       In      -         0.765       -         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c_RNI7P701      SB_LUT4      O        Out     0.465     1.231       -         
+un2_threshold_add_1_cry_0_c_RNI7P701                         Net          -        -       0.905     -           2         
+pwm_generator_inst.un3_threshold_cry_5_c                     SB_CARRY     I0       In      -         2.136       -         
+pwm_generator_inst.un3_threshold_cry_5_c                     SB_CARRY     CO       Out     0.380     2.515       -         
+un3_threshold_cry_5                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_6_c                     SB_CARRY     CI       In      -         2.529       -         
+pwm_generator_inst.un3_threshold_cry_6_c                     SB_CARRY     CO       Out     0.186     2.715       -         
+un3_threshold_cry_6                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     CI       In      -         2.729       -         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     CO       Out     0.186     2.915       -         
+un3_threshold_cry_7                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CI       In      -         2.929       -         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CO       Out     0.186     3.115       -         
+un3_threshold_cry_8                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CI       In      -         3.129       -         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CO       Out     0.186     3.315       -         
+un3_threshold_cry_9                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CI       In      -         3.329       -         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.186     3.515       -         
+un3_threshold_cry_10                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         3.529       -         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     3.715       -         
+un3_threshold_cry_11                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         3.729       -         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.915       -         
+un3_threshold_cry_12                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.929       -         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     4.115       -         
+un3_threshold_cry_13                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         4.129       -         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     4.315       -         
+un3_threshold_cry_14                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         4.329       -         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     4.515       -         
+un3_threshold_cry_15                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         4.529       -         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     4.715       -         
+un3_threshold_cry_16                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         4.729       -         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.915       -         
+un3_threshold_cry_17                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.929       -         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     5.115       -         
+un3_threshold_cry_18                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         5.129       -         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     5.315       -         
+un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      I2       In      -         5.701       -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      O        Out     0.558     6.259       -         
+un2_threshold_add_1_cry_15_c_RNI1RR81                        Net          -        -       1.371     -           12        
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      I3       In      -         7.630       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      O        Out     0.465     8.095       -         
+un19_threshold_0_axb_0                                       Net          -        -       1.371     -           2         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      I1       In      -         9.466       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      O        Out     0.589     10.056      -         
+un14_counter_0                                               Net          -        -       0.905     -           2         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         10.961      -         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     11.298      -         
+un14_counter_cry_0                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         11.312      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     11.498      -         
+un14_counter_cry_1                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         11.512      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     11.698      -         
+un14_counter_cry_2                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         11.712      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     11.898      -         
+un14_counter_cry_3                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         11.912      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     12.098      -         
+un14_counter_cry_4                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         12.112      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     12.298      -         
+un14_counter_cry_5                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         12.312      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     12.498      -         
+un14_counter_cry_6                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         12.512      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     12.698      -         
+un14_counter_cry_7                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         12.712      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     12.898      -         
+un14_counter_cry_8                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         12.912      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     13.098      -         
+un14_counter_cry_9                                           Net          -        -       0.402     -           1         
+pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         13.500      -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 13.655 is 7.607(55.7%) logic and 6.048(44.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      9.948
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.793
+
+    - Propagation time:                      13.500
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -3.707
+
+    Number of logic level(s):                30
+    Starting point:                          pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0] / O[0]
+    Ending point:                            pwm_generator_inst.pwm_out / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]         SB_MAC16     O[0]     Out     0.000     0.000       -         
+un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
+un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
+un2_threshold_add_1_cry_1                                    Net          -        -       0.386     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c_RNI8R801      SB_LUT4      I3       In      -         0.966       -         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c_RNI8R801      SB_LUT4      O        Out     0.465     1.431       -         
+un2_threshold_add_1_cry_1_c_RNI8R801                         Net          -        -       0.905     -           2         
+pwm_generator_inst.un3_threshold_cry_6_c                     SB_CARRY     I0       In      -         2.336       -         
+pwm_generator_inst.un3_threshold_cry_6_c                     SB_CARRY     CO       Out     0.380     2.715       -         
+un3_threshold_cry_6                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     CI       In      -         2.729       -         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     CO       Out     0.186     2.915       -         
+un3_threshold_cry_7                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CI       In      -         2.929       -         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CO       Out     0.186     3.115       -         
+un3_threshold_cry_8                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CI       In      -         3.129       -         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CO       Out     0.186     3.315       -         
+un3_threshold_cry_9                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CI       In      -         3.329       -         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.186     3.515       -         
+un3_threshold_cry_10                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         3.529       -         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     3.715       -         
+un3_threshold_cry_11                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         3.729       -         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.915       -         
+un3_threshold_cry_12                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.929       -         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     4.115       -         
+un3_threshold_cry_13                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         4.129       -         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     4.315       -         
+un3_threshold_cry_14                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         4.329       -         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     4.515       -         
+un3_threshold_cry_15                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         4.529       -         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     4.715       -         
+un3_threshold_cry_16                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         4.729       -         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.915       -         
+un3_threshold_cry_17                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.929       -         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     5.115       -         
+un3_threshold_cry_18                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         5.129       -         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     5.315       -         
+un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      I2       In      -         5.701       -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      O        Out     0.558     6.259       -         
+un2_threshold_add_1_cry_15_c_RNI1RR81                        Net          -        -       1.371     -           12        
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      I3       In      -         7.630       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      O        Out     0.465     8.095       -         
+un19_threshold_0_axb_0                                       Net          -        -       1.371     -           2         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      I1       In      -         9.466       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      O        Out     0.589     10.056      -         
+un14_counter_0                                               Net          -        -       0.905     -           2         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         10.961      -         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     11.298      -         
+un14_counter_cry_0                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         11.312      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     11.498      -         
+un14_counter_cry_1                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         11.512      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     11.698      -         
+un14_counter_cry_2                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         11.712      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     11.898      -         
+un14_counter_cry_3                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         11.912      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     12.098      -         
+un14_counter_cry_4                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         12.112      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     12.298      -         
+un14_counter_cry_5                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         12.312      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     12.498      -         
+un14_counter_cry_6                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         12.512      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     12.698      -         
+un14_counter_cry_7                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         12.712      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     12.898      -         
+un14_counter_cry_8                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         12.912      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     13.098      -         
+un14_counter_cry_9                                           Net          -        -       0.402     -           1         
+pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         13.500      -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 13.655 is 7.607(55.7%) logic and 6.048(44.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      9.948
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.793
+
+    - Propagation time:                      13.500
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -3.707
+
+    Number of logic level(s):                30
+    Starting point:                          pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0] / O[0]
+    Ending point:                            pwm_generator_inst.pwm_out / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]         SB_MAC16     O[0]     Out     0.000     0.000       -         
+un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
+un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
+un2_threshold_add_1_cry_1                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CI       In      -         0.594       -         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CO       Out     0.186     0.779       -         
+un2_threshold_add_1_cry_2                                    Net          -        -       0.386     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c_RNI9T901      SB_LUT4      I3       In      -         1.166       -         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c_RNI9T901      SB_LUT4      O        Out     0.465     1.631       -         
+un2_threshold_add_1_cry_2_c_RNI9T901                         Net          -        -       0.905     -           2         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     I0       In      -         2.536       -         
+pwm_generator_inst.un3_threshold_cry_7_c                     SB_CARRY     CO       Out     0.380     2.915       -         
+un3_threshold_cry_7                                          Net          -        -       0.014     -           2         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CI       In      -         2.929       -         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CO       Out     0.186     3.115       -         
+un3_threshold_cry_8                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CI       In      -         3.129       -         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CO       Out     0.186     3.315       -         
+un3_threshold_cry_9                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CI       In      -         3.329       -         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.186     3.515       -         
+un3_threshold_cry_10                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         3.529       -         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     3.715       -         
+un3_threshold_cry_11                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         3.729       -         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.915       -         
+un3_threshold_cry_12                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.929       -         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     4.115       -         
+un3_threshold_cry_13                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         4.129       -         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     4.315       -         
+un3_threshold_cry_14                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         4.329       -         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     4.515       -         
+un3_threshold_cry_15                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         4.529       -         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     4.715       -         
+un3_threshold_cry_16                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         4.729       -         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.915       -         
+un3_threshold_cry_17                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.929       -         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     5.115       -         
+un3_threshold_cry_18                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         5.129       -         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     5.315       -         
+un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      I2       In      -         5.701       -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      O        Out     0.558     6.259       -         
+un2_threshold_add_1_cry_15_c_RNI1RR81                        Net          -        -       1.371     -           12        
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      I3       In      -         7.630       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      O        Out     0.465     8.095       -         
+un19_threshold_0_axb_0                                       Net          -        -       1.371     -           2         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      I1       In      -         9.466       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      O        Out     0.589     10.056      -         
+un14_counter_0                                               Net          -        -       0.905     -           2         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         10.961      -         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     11.298      -         
+un14_counter_cry_0                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         11.312      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     11.498      -         
+un14_counter_cry_1                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         11.512      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     11.698      -         
+un14_counter_cry_2                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         11.712      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     11.898      -         
+un14_counter_cry_3                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         11.912      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     12.098      -         
+un14_counter_cry_4                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         12.112      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     12.298      -         
+un14_counter_cry_5                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         12.312      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     12.498      -         
+un14_counter_cry_6                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         12.512      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     12.698      -         
+un14_counter_cry_7                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         12.712      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     12.898      -         
+un14_counter_cry_8                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         12.912      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     13.098      -         
+un14_counter_cry_9                                           Net          -        -       0.402     -           1         
+pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         13.500      -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 13.655 is 7.607(55.7%) logic and 6.048(44.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      9.948
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.793
+
+    - Propagation time:                      13.500
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -3.707
+
+    Number of logic level(s):                30
+    Starting point:                          pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0] / O[0]
+    Ending point:                            pwm_generator_inst.pwm_out / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]         SB_MAC16     O[0]     Out     0.000     0.000       -         
+un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
+pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
+un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
+pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
+un2_threshold_add_1_cry_1                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CI       In      -         0.594       -         
+pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CO       Out     0.186     0.779       -         
+un2_threshold_add_1_cry_2                                    Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_3_c               SB_CARRY     CI       In      -         0.793       -         
+pwm_generator_inst.un2_threshold_add_1_cry_3_c               SB_CARRY     CO       Out     0.186     0.980       -         
+un2_threshold_add_1_cry_3                                    Net          -        -       0.386     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_3_c_RNIAVA01      SB_LUT4      I3       In      -         1.365       -         
+pwm_generator_inst.un2_threshold_add_1_cry_3_c_RNIAVA01      SB_LUT4      O        Out     0.465     1.831       -         
+un2_threshold_add_1_cry_3_c_RNIAVA01                         Net          -        -       0.905     -           2         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     I0       In      -         2.736       -         
+pwm_generator_inst.un3_threshold_cry_8_c                     SB_CARRY     CO       Out     0.380     3.115       -         
+un3_threshold_cry_8                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CI       In      -         3.129       -         
+pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CO       Out     0.186     3.315       -         
+un3_threshold_cry_9                                          Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CI       In      -         3.329       -         
+pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.186     3.515       -         
+un3_threshold_cry_10                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         3.529       -         
+pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     3.715       -         
+un3_threshold_cry_11                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         3.729       -         
+pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.915       -         
+un3_threshold_cry_12                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.929       -         
+pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     4.115       -         
+un3_threshold_cry_13                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         4.129       -         
+pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     4.315       -         
+un3_threshold_cry_14                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         4.329       -         
+pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     4.515       -         
+un3_threshold_cry_15                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         4.529       -         
+pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     4.715       -         
+un3_threshold_cry_16                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         4.729       -         
+pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.915       -         
+un3_threshold_cry_17                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.929       -         
+pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     5.115       -         
+un3_threshold_cry_18                                         Net          -        -       0.014     -           1         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         5.129       -         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     5.315       -         
+un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      I2       In      -         5.701       -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      O        Out     0.558     6.259       -         
+un2_threshold_add_1_cry_15_c_RNI1RR81                        Net          -        -       1.371     -           12        
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      I3       In      -         7.630       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      O        Out     0.465     8.095       -         
+un19_threshold_0_axb_0                                       Net          -        -       1.371     -           2         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      I1       In      -         9.466       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      O        Out     0.589     10.056      -         
+un14_counter_0                                               Net          -        -       0.905     -           2         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         10.961      -         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     11.298      -         
+un14_counter_cry_0                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         11.312      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     11.498      -         
+un14_counter_cry_1                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         11.512      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     11.698      -         
+un14_counter_cry_2                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         11.712      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     11.898      -         
+un14_counter_cry_3                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         11.912      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     12.098      -         
+un14_counter_cry_4                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         12.112      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     12.298      -         
+un14_counter_cry_5                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         12.312      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     12.498      -         
+un14_counter_cry_6                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         12.512      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     12.698      -         
+un14_counter_cry_7                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         12.712      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     12.898      -         
+un14_counter_cry_8                                           Net          -        -       0.014     -           1         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         12.912      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     13.098      -         
+un14_counter_cry_9                                           Net          -        -       0.402     -           1         
+pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         13.500      -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 13.655 is 7.607(55.7%) logic and 6.048(44.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      9.948
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.793
+
+    - Propagation time:                      13.500
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -3.707
+
+    Number of logic level(s):                30
+    Starting point:                          pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0] / O[0]
+    Ending point:                            pwm_generator_inst.pwm_out / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+pwm_generator_inst.un2_threshold_2_1_mulonly_0[25:0]         SB_MAC16     O[0]     Out     0.000     0.000       -         
 un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
 pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
 pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
@@ -2633,494 +3082,67 @@ pwm_generator_inst.un2_threshold_add_1_cry_9_c               SB_CARRY     CO    
 un2_threshold_add_1_cry_9                                    Net          -        -       0.014     -           2         
 pwm_generator_inst.un2_threshold_add_1_cry_10_c              SB_CARRY     CI       In      -         2.193       -         
 pwm_generator_inst.un2_threshold_add_1_cry_10_c              SB_CARRY     CO       Out     0.186     2.380       -         
-un2_threshold_add_1_cry_10                                   Net          -        -       0.386     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_11_s              SB_LUT4      I3       In      -         2.765       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_s              SB_LUT4      O        Out     0.465     3.231       -         
-un2_threshold_add_1_cry_11_s                                 Net          -        -       0.905     -           2         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     I0       In      -         4.136       -         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.380     4.515       -         
+un2_threshold_add_1_cry_10                                   Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_11_c              SB_CARRY     CI       In      -         2.394       -         
+pwm_generator_inst.un2_threshold_add_1_cry_11_c              SB_CARRY     CO       Out     0.186     2.579       -         
+un2_threshold_add_1_cry_11                                   Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_12_c              SB_CARRY     CI       In      -         2.594       -         
+pwm_generator_inst.un2_threshold_add_1_cry_12_c              SB_CARRY     CO       Out     0.186     2.780       -         
+un2_threshold_add_1_cry_12                                   Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_13_c              SB_CARRY     CI       In      -         2.793       -         
+pwm_generator_inst.un2_threshold_add_1_cry_13_c              SB_CARRY     CO       Out     0.186     2.979       -         
+un2_threshold_add_1_cry_13                                   Net          -        -       0.014     -           2         
+pwm_generator_inst.un2_threshold_add_1_cry_14_c              SB_CARRY     CI       In      -         2.994       -         
+pwm_generator_inst.un2_threshold_add_1_cry_14_c              SB_CARRY     CO       Out     0.186     3.180       -         
+un2_threshold_add_1_cry_14                                   Net          -        -       0.386     -           2         
+pwm_generator_inst.un3_threshold_cry_19_c_RNO                SB_LUT4      I3       In      -         3.566       -         
+pwm_generator_inst.un3_threshold_cry_19_c_RNO                SB_LUT4      O        Out     0.465     4.031       -         
+un3_threshold_cry_19_c_RNO                                   Net          -        -       0.905     -           1         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     I0       In      -         4.936       -         
+pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.380     5.315       -         
 un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      I3       In      -         4.901       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      O        Out     0.465     5.366       -         
-un2_threshold_add_1_cry_11_c_RNIBSON                         Net          -        -       1.371     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      I0       In      -         6.737       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      O        Out     0.661     7.399       -         
-un5_threshold_add_1_axb_16                                   Net          -        -       1.371     -           1         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      I0       In      -         8.770       -         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      O        Out     0.661     9.431       -         
-un5_threshold_add_1_cry_15_c_RNI1OUJ1                        Net          -        -       1.371     -           10        
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      I1       In      -         10.802      -         
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      O        Out     0.589     11.391      -         
-N_179_i                                                      Net          -        -       0.905     -           2         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         12.296      -         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     12.634      -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      I2       In      -         5.701       -         
+pwm_generator_inst.un2_threshold_add_1_cry_15_c_RNI1RR81     SB_LUT4      O        Out     0.558     6.259       -         
+un2_threshold_add_1_cry_15_c_RNI1RR81                        Net          -        -       1.371     -           12        
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      I3       In      -         7.630       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIFGO02         SB_LUT4      O        Out     0.465     8.095       -         
+un19_threshold_0_axb_0                                       Net          -        -       1.371     -           2         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      I1       In      -         9.466       -         
+pwm_generator_inst.un15_threshold_1_cry_9_c_RNIGBK93         SB_LUT4      O        Out     0.589     10.056      -         
+un14_counter_0                                               Net          -        -       0.905     -           2         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         10.961      -         
+pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     11.298      -         
 un14_counter_cry_0                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         12.648      -         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     12.834      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         11.312      -         
+pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     11.498      -         
 un14_counter_cry_1                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         12.848      -         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     13.034      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         11.512      -         
+pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     11.698      -         
 un14_counter_cry_2                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         13.048      -         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     13.234      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         11.712      -         
+pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     11.898      -         
 un14_counter_cry_3                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         13.248      -         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     13.434      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         11.912      -         
+pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     12.098      -         
 un14_counter_cry_4                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         13.448      -         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     13.634      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         12.112      -         
+pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     12.298      -         
 un14_counter_cry_5                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         13.648      -         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     13.834      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         12.312      -         
+pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     12.498      -         
 un14_counter_cry_6                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         13.848      -         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     14.034      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         12.512      -         
+pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     12.698      -         
 un14_counter_cry_7                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         14.048      -         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     14.234      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         12.712      -         
+pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     12.898      -         
 un14_counter_cry_8                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         14.248      -         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     14.434      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         12.912      -         
+pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     13.098      -         
 un14_counter_cry_9                                           Net          -        -       0.402     -           1         
-pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         14.836      -         
+pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         13.500      -         
 ===========================================================================================================================
-Total path delay (propagation time + setup) of 14.991 is 7.628(50.9%) logic and 7.363(49.1%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 2: 
-      Requested Period:                      9.948
-    - Setup time:                            0.155
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.793
-
-    - Propagation time:                      14.836
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -5.042
-
-    Number of logic level(s):                27
-    Starting point:                          pwm_generator_inst.un2_threshold_2_mulonly_0[16:0] / O[0]
-    Ending point:                            pwm_generator_inst.pwm_out / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
-
-Instance / Net                                                            Pin      Pin               Arrival     No. of    
-Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]           SB_MAC16     O[0]     Out     0.000     0.000       -         
-un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
-un2_threshold_add_1_cry_0                                    Net          -        -       0.386     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_1_s               SB_LUT4      I3       In      -         0.765       -         
-pwm_generator_inst.un2_threshold_add_1_cry_1_s               SB_LUT4      O        Out     0.465     1.231       -         
-un2_threshold_add_1_cry_1_s                                  Net          -        -       0.905     -           2         
-pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     I0       In      -         2.136       -         
-pwm_generator_inst.un3_threshold_cry_9_c                     SB_CARRY     CO       Out     0.380     2.515       -         
-un3_threshold_cry_9                                          Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CI       In      -         2.529       -         
-pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.186     2.715       -         
-un3_threshold_cry_10                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         2.729       -         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     2.915       -         
-un3_threshold_cry_11                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         2.929       -         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.115       -         
-un3_threshold_cry_12                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.129       -         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     3.315       -         
-un3_threshold_cry_13                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         3.329       -         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     3.515       -         
-un3_threshold_cry_14                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         3.529       -         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     3.715       -         
-un3_threshold_cry_15                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         3.729       -         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     3.915       -         
-un3_threshold_cry_16                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         3.929       -         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.115       -         
-un3_threshold_cry_17                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.129       -         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     4.315       -         
-un3_threshold_cry_18                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         4.329       -         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     4.515       -         
-un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      I3       In      -         4.901       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      O        Out     0.465     5.366       -         
-un2_threshold_add_1_cry_11_c_RNIBSON                         Net          -        -       1.371     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      I0       In      -         6.737       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      O        Out     0.661     7.399       -         
-un5_threshold_add_1_axb_16                                   Net          -        -       1.371     -           1         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      I0       In      -         8.770       -         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      O        Out     0.661     9.431       -         
-un5_threshold_add_1_cry_15_c_RNI1OUJ1                        Net          -        -       1.371     -           10        
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      I1       In      -         10.802      -         
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      O        Out     0.589     11.391      -         
-N_179_i                                                      Net          -        -       0.905     -           2         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         12.296      -         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     12.634      -         
-un14_counter_cry_0                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         12.648      -         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     12.834      -         
-un14_counter_cry_1                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         12.848      -         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     13.034      -         
-un14_counter_cry_2                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         13.048      -         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     13.234      -         
-un14_counter_cry_3                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         13.248      -         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     13.434      -         
-un14_counter_cry_4                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         13.448      -         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     13.634      -         
-un14_counter_cry_5                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         13.648      -         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     13.834      -         
-un14_counter_cry_6                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         13.848      -         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     14.034      -         
-un14_counter_cry_7                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         14.048      -         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     14.234      -         
-un14_counter_cry_8                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         14.248      -         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     14.434      -         
-un14_counter_cry_9                                           Net          -        -       0.402     -           1         
-pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         14.836      -         
-===========================================================================================================================
-Total path delay (propagation time + setup) of 14.991 is 7.628(50.9%) logic and 7.363(49.1%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 3: 
-      Requested Period:                      9.948
-    - Setup time:                            0.155
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.793
-
-    - Propagation time:                      14.836
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -5.042
-
-    Number of logic level(s):                27
-    Starting point:                          pwm_generator_inst.un2_threshold_2_mulonly_0[16:0] / O[0]
-    Ending point:                            pwm_generator_inst.pwm_out / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
-
-Instance / Net                                                            Pin      Pin               Arrival     No. of    
-Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]           SB_MAC16     O[0]     Out     0.000     0.000       -         
-un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
-un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
-un2_threshold_add_1_cry_1                                    Net          -        -       0.386     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_2_s               SB_LUT4      I3       In      -         0.966       -         
-pwm_generator_inst.un2_threshold_add_1_cry_2_s               SB_LUT4      O        Out     0.465     1.431       -         
-un2_threshold_add_1_cry_2_s                                  Net          -        -       0.905     -           2         
-pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     I0       In      -         2.336       -         
-pwm_generator_inst.un3_threshold_cry_10_c                    SB_CARRY     CO       Out     0.380     2.715       -         
-un3_threshold_cry_10                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CI       In      -         2.729       -         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.186     2.915       -         
-un3_threshold_cry_11                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         2.929       -         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.115       -         
-un3_threshold_cry_12                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.129       -         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     3.315       -         
-un3_threshold_cry_13                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         3.329       -         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     3.515       -         
-un3_threshold_cry_14                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         3.529       -         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     3.715       -         
-un3_threshold_cry_15                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         3.729       -         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     3.915       -         
-un3_threshold_cry_16                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         3.929       -         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.115       -         
-un3_threshold_cry_17                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.129       -         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     4.315       -         
-un3_threshold_cry_18                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         4.329       -         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     4.515       -         
-un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      I3       In      -         4.901       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      O        Out     0.465     5.366       -         
-un2_threshold_add_1_cry_11_c_RNIBSON                         Net          -        -       1.371     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      I0       In      -         6.737       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      O        Out     0.661     7.399       -         
-un5_threshold_add_1_axb_16                                   Net          -        -       1.371     -           1         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      I0       In      -         8.770       -         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      O        Out     0.661     9.431       -         
-un5_threshold_add_1_cry_15_c_RNI1OUJ1                        Net          -        -       1.371     -           10        
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      I1       In      -         10.802      -         
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      O        Out     0.589     11.391      -         
-N_179_i                                                      Net          -        -       0.905     -           2         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         12.296      -         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     12.634      -         
-un14_counter_cry_0                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         12.648      -         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     12.834      -         
-un14_counter_cry_1                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         12.848      -         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     13.034      -         
-un14_counter_cry_2                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         13.048      -         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     13.234      -         
-un14_counter_cry_3                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         13.248      -         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     13.434      -         
-un14_counter_cry_4                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         13.448      -         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     13.634      -         
-un14_counter_cry_5                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         13.648      -         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     13.834      -         
-un14_counter_cry_6                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         13.848      -         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     14.034      -         
-un14_counter_cry_7                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         14.048      -         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     14.234      -         
-un14_counter_cry_8                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         14.248      -         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     14.434      -         
-un14_counter_cry_9                                           Net          -        -       0.402     -           1         
-pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         14.836      -         
-===========================================================================================================================
-Total path delay (propagation time + setup) of 14.991 is 7.628(50.9%) logic and 7.363(49.1%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 4: 
-      Requested Period:                      9.948
-    - Setup time:                            0.155
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.793
-
-    - Propagation time:                      14.836
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -5.042
-
-    Number of logic level(s):                27
-    Starting point:                          pwm_generator_inst.un2_threshold_2_mulonly_0[16:0] / O[0]
-    Ending point:                            pwm_generator_inst.pwm_out / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
-
-Instance / Net                                                            Pin      Pin               Arrival     No. of    
-Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]           SB_MAC16     O[0]     Out     0.000     0.000       -         
-un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
-un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
-un2_threshold_add_1_cry_1                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CI       In      -         0.594       -         
-pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CO       Out     0.186     0.779       -         
-un2_threshold_add_1_cry_2                                    Net          -        -       0.386     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_3_s               SB_LUT4      I3       In      -         1.166       -         
-pwm_generator_inst.un2_threshold_add_1_cry_3_s               SB_LUT4      O        Out     0.465     1.631       -         
-un2_threshold_add_1_cry_3_s                                  Net          -        -       0.905     -           2         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     I0       In      -         2.536       -         
-pwm_generator_inst.un3_threshold_cry_11_c                    SB_CARRY     CO       Out     0.380     2.915       -         
-un3_threshold_cry_11                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CI       In      -         2.929       -         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.186     3.115       -         
-un3_threshold_cry_12                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.129       -         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     3.315       -         
-un3_threshold_cry_13                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         3.329       -         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     3.515       -         
-un3_threshold_cry_14                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         3.529       -         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     3.715       -         
-un3_threshold_cry_15                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         3.729       -         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     3.915       -         
-un3_threshold_cry_16                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         3.929       -         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.115       -         
-un3_threshold_cry_17                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.129       -         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     4.315       -         
-un3_threshold_cry_18                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         4.329       -         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     4.515       -         
-un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      I3       In      -         4.901       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      O        Out     0.465     5.366       -         
-un2_threshold_add_1_cry_11_c_RNIBSON                         Net          -        -       1.371     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      I0       In      -         6.737       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      O        Out     0.661     7.399       -         
-un5_threshold_add_1_axb_16                                   Net          -        -       1.371     -           1         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      I0       In      -         8.770       -         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      O        Out     0.661     9.431       -         
-un5_threshold_add_1_cry_15_c_RNI1OUJ1                        Net          -        -       1.371     -           10        
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      I1       In      -         10.802      -         
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      O        Out     0.589     11.391      -         
-N_179_i                                                      Net          -        -       0.905     -           2         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         12.296      -         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     12.634      -         
-un14_counter_cry_0                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         12.648      -         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     12.834      -         
-un14_counter_cry_1                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         12.848      -         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     13.034      -         
-un14_counter_cry_2                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         13.048      -         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     13.234      -         
-un14_counter_cry_3                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         13.248      -         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     13.434      -         
-un14_counter_cry_4                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         13.448      -         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     13.634      -         
-un14_counter_cry_5                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         13.648      -         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     13.834      -         
-un14_counter_cry_6                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         13.848      -         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     14.034      -         
-un14_counter_cry_7                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         14.048      -         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     14.234      -         
-un14_counter_cry_8                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         14.248      -         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     14.434      -         
-un14_counter_cry_9                                           Net          -        -       0.402     -           1         
-pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         14.836      -         
-===========================================================================================================================
-Total path delay (propagation time + setup) of 14.991 is 7.628(50.9%) logic and 7.363(49.1%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 5: 
-      Requested Period:                      9.948
-    - Setup time:                            0.155
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.793
-
-    - Propagation time:                      14.836
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -5.042
-
-    Number of logic level(s):                27
-    Starting point:                          pwm_generator_inst.un2_threshold_2_mulonly_0[16:0] / O[0]
-    Ending point:                            pwm_generator_inst.pwm_out / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock [rising] on pin C
-
-Instance / Net                                                            Pin      Pin               Arrival     No. of    
-Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------
-pwm_generator_inst.un2_threshold_2_mulonly_0[16:0]           SB_MAC16     O[0]     Out     0.000     0.000       -         
-un2_threshold_2[0]                                           Net          -        -       0.000     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     I0       In      -         0.000       -         
-pwm_generator_inst.un2_threshold_add_1_cry_0_c               SB_CARRY     CO       Out     0.380     0.380       -         
-un2_threshold_add_1_cry_0                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CI       In      -         0.394       -         
-pwm_generator_inst.un2_threshold_add_1_cry_1_c               SB_CARRY     CO       Out     0.186     0.580       -         
-un2_threshold_add_1_cry_1                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CI       In      -         0.594       -         
-pwm_generator_inst.un2_threshold_add_1_cry_2_c               SB_CARRY     CO       Out     0.186     0.779       -         
-un2_threshold_add_1_cry_2                                    Net          -        -       0.014     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_3_c               SB_CARRY     CI       In      -         0.793       -         
-pwm_generator_inst.un2_threshold_add_1_cry_3_c               SB_CARRY     CO       Out     0.186     0.980       -         
-un2_threshold_add_1_cry_3                                    Net          -        -       0.386     -           2         
-pwm_generator_inst.un2_threshold_add_1_cry_4_s               SB_LUT4      I3       In      -         1.365       -         
-pwm_generator_inst.un2_threshold_add_1_cry_4_s               SB_LUT4      O        Out     0.465     1.831       -         
-un2_threshold_add_1_cry_4_s                                  Net          -        -       0.905     -           2         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     I0       In      -         2.736       -         
-pwm_generator_inst.un3_threshold_cry_12_c                    SB_CARRY     CO       Out     0.380     3.115       -         
-un3_threshold_cry_12                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CI       In      -         3.129       -         
-pwm_generator_inst.un3_threshold_cry_13_c                    SB_CARRY     CO       Out     0.186     3.315       -         
-un3_threshold_cry_13                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CI       In      -         3.329       -         
-pwm_generator_inst.un3_threshold_cry_14_c                    SB_CARRY     CO       Out     0.186     3.515       -         
-un3_threshold_cry_14                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CI       In      -         3.529       -         
-pwm_generator_inst.un3_threshold_cry_15_c                    SB_CARRY     CO       Out     0.186     3.715       -         
-un3_threshold_cry_15                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CI       In      -         3.729       -         
-pwm_generator_inst.un3_threshold_cry_16_c                    SB_CARRY     CO       Out     0.186     3.915       -         
-un3_threshold_cry_16                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CI       In      -         3.929       -         
-pwm_generator_inst.un3_threshold_cry_17_c                    SB_CARRY     CO       Out     0.186     4.115       -         
-un3_threshold_cry_17                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CI       In      -         4.129       -         
-pwm_generator_inst.un3_threshold_cry_18_c                    SB_CARRY     CO       Out     0.186     4.315       -         
-un3_threshold_cry_18                                         Net          -        -       0.014     -           2         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CI       In      -         4.329       -         
-pwm_generator_inst.un3_threshold_cry_19_c                    SB_CARRY     CO       Out     0.186     4.515       -         
-un3_threshold_cry_19                                         Net          -        -       0.386     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      I3       In      -         4.901       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNIBSON      SB_LUT4      O        Out     0.465     5.366       -         
-un2_threshold_add_1_cry_11_c_RNIBSON                         Net          -        -       1.371     -           1         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      I0       In      -         6.737       -         
-pwm_generator_inst.un2_threshold_add_1_cry_11_c_RNICSGJ1     SB_LUT4      O        Out     0.661     7.399       -         
-un5_threshold_add_1_axb_16                                   Net          -        -       1.371     -           1         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      I0       In      -         8.770       -         
-pwm_generator_inst.un5_threshold_add_1_cry_15_c_RNI1OUJ1     SB_LUT4      O        Out     0.661     9.431       -         
-un5_threshold_add_1_cry_15_c_RNI1OUJ1                        Net          -        -       1.371     -           10        
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      I1       In      -         10.802      -         
-pwm_generator_inst.un18_threshold_1_cry_16_c_RNI9O983        SB_LUT4      O        Out     0.589     11.391      -         
-N_179_i                                                      Net          -        -       0.905     -           2         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     I1       In      -         12.296      -         
-pwm_generator_inst.un14_counter_cry_0_c                      SB_CARRY     CO       Out     0.337     12.634      -         
-un14_counter_cry_0                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CI       In      -         12.648      -         
-pwm_generator_inst.un14_counter_cry_1_c                      SB_CARRY     CO       Out     0.186     12.834      -         
-un14_counter_cry_1                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CI       In      -         12.848      -         
-pwm_generator_inst.un14_counter_cry_2_c                      SB_CARRY     CO       Out     0.186     13.034      -         
-un14_counter_cry_2                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CI       In      -         13.048      -         
-pwm_generator_inst.un14_counter_cry_3_c                      SB_CARRY     CO       Out     0.186     13.234      -         
-un14_counter_cry_3                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CI       In      -         13.248      -         
-pwm_generator_inst.un14_counter_cry_4_c                      SB_CARRY     CO       Out     0.186     13.434      -         
-un14_counter_cry_4                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CI       In      -         13.448      -         
-pwm_generator_inst.un14_counter_cry_5_c                      SB_CARRY     CO       Out     0.186     13.634      -         
-un14_counter_cry_5                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CI       In      -         13.648      -         
-pwm_generator_inst.un14_counter_cry_6_c                      SB_CARRY     CO       Out     0.186     13.834      -         
-un14_counter_cry_6                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CI       In      -         13.848      -         
-pwm_generator_inst.un14_counter_cry_7_c                      SB_CARRY     CO       Out     0.186     14.034      -         
-un14_counter_cry_7                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CI       In      -         14.048      -         
-pwm_generator_inst.un14_counter_cry_8_c                      SB_CARRY     CO       Out     0.186     14.234      -         
-un14_counter_cry_8                                           Net          -        -       0.014     -           1         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CI       In      -         14.248      -         
-pwm_generator_inst.un14_counter_cry_9_c                      SB_CARRY     CO       Out     0.186     14.434      -         
-un14_counter_cry_9                                           Net          -        -       0.402     -           1         
-pwm_generator_inst.pwm_out                                   SB_DFFR      D        In      -         14.836      -         
-===========================================================================================================================
-Total path delay (propagation time + setup) of 14.991 is 7.628(50.9%) logic and 7.363(49.1%) route.
+Total path delay (propagation time + setup) of 13.655 is 7.607(55.7%) logic and 6.048(44.3%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -3130,10 +3152,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
 
 ---------------------------------------
 Resource Usage Report for MAIN 
@@ -3141,7 +3163,7 @@ Resource Usage Report for MAIN
 Mapping to part: ice40up5ksg48
 Cell usage:
 GND             14 uses
-SB_CARRY        867 uses
+SB_CARRY        848 uses
 SB_DFFE         116 uses
 SB_DFFER        314 uses
 SB_DFFR         187 uses
@@ -3151,9 +3173,9 @@ SB_HFOSC        1 use
 SB_PLL40_CORE   1 use
 SB_RGBA_DRV     1 use
 VCC             14 uses
-SB_MAC16            6 uses
-  MULTONLY  6 uses
-SB_LUT4         1342 uses
+SB_MAC16            4 uses
+  MULTONLY  4 uses
+SB_LUT4         1314 uses
 
 I/O ports: 17
 I/O primitives: 13
@@ -3169,16 +3191,16 @@ Total load per clock:
    ICE40_MAIN_PROGRAM_100MHZ_pll|PLLOUTGLOBAL_derived_clock: 615
 
 @S |Mapping Summary:
-Total  LUTs: 1342 (25%)
+Total  LUTs: 1314 (24%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 1342 = 1342 
+Distribution of All Consumed Luts 1314 = 1314 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 34MB peak: 146MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 33MB peak: 145MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Oct 03 21:45:41 2024
+# Wed Oct 23 20:09:49 2024
 
 ###########################################################]
