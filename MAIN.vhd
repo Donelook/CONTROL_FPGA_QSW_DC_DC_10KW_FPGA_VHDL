@@ -156,16 +156,16 @@ architecture Behavioral of MAIN is
     signal state_error1, state_error2 : std_logic; -- Error signals for both controllers
 
     -- Signals for delay measurement
-    signal measured_delay_tr  : integer;
-    signal measured_delay_hc  : integer;
+    signal measured_delay_tr  : integer := 0;
+    signal measured_delay_hc  : integer := 0;
 
     -- Signals for current shift and PWM duty cycle
     signal pwm_duty_input     : integer := 0;  -- Output of current_shift to control the PWM duty cycle
-    signal freq_S1            : integer;       -- Frequency of S1 signal
-    signal freq_S3            : integer;       -- Frequency of S3 signal
-    signal phase_shift_ns     : integer;       -- Phase shift between S1 and S3
-	signal S1_buffor     : std_logic;       -- 
-    signal S3_buffor     : std_logic;       -- 
+    signal freq_S1            : integer := 8;       -- Frequency of S1 signal
+    signal freq_S3            : integer := 8;      -- Frequency of S3 signal
+    signal phase_shift_ns     : integer := 8;       -- Phase shift between S1 and S3
+	signal S1_buffor     : std_logic := '0';       -- 
+    signal S3_buffor     : std_logic := '0';       -- 
 	
 	--- RGB signal
 	signal red : std_logic; 

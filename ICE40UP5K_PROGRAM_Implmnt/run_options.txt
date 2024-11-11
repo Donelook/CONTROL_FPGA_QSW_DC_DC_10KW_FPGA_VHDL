@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\run_options.txt
-#--  Written on Wed Oct 23 20:09:44 2024
+#--  Written on Mon Nov 11 22:12:08 2024
 
 
 #project files

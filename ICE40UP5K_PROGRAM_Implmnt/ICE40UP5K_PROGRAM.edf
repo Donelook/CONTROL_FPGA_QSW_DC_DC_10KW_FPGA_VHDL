@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2024 10 23 20 9 49)
+      (timeStamp 2024 11 11 22 12 12)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L+ice40, mapper maplat, Build 1612R"))
      )
@@ -27502,7 +27502,7 @@
            (port s1_phy_c (direction OUTPUT))
            (port s2_phy_c (direction OUTPUT))
            (port clk_100mhz_0 (direction INPUT))
-           (port un8_start_stop (direction OUTPUT))
+           (port un7_start_stop (direction OUTPUT))
            (port N_94_i_i (direction OUTPUT))
            (port red_c_g (direction INPUT))
            (port il_max_comp1_c (direction INPUT))
@@ -27537,7 +27537,7 @@
           (instance (rename state_RNO_0_3 "state_RNO_0[3]") (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "23AF"))
           )
-          (instance un8_start_stop (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
+          (instance un7_start_stop (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "4444"))
           )
           (instance start_timer_tr_RNO_0 (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
@@ -27590,7 +27590,7 @@
           ))
           (net start_stop_c (joined
            (portRef start_stop_c)
-           (portRef I1 (instanceRef un8_start_stop))
+           (portRef I1 (instanceRef un7_start_stop))
            (portRef I1 (instanceRef N_94_i_i))
            (portRef I2 (instanceRef state_RNO_4))
            (portRef I2 (instanceRef start_flag_RNO))
@@ -27630,8 +27630,8 @@
            (portRef Y (instanceRef GND))
            (portRef I3 (instanceRef start_timer_tr_RNO_0))
            (portRef I2 (instanceRef start_timer_tr_RNO_0))
-           (portRef I3 (instanceRef un8_start_stop))
-           (portRef I2 (instanceRef un8_start_stop))
+           (portRef I3 (instanceRef un7_start_stop))
+           (portRef I2 (instanceRef un7_start_stop))
            (portRef I3 (instanceRef N_94_i_i))
            (portRef I2 (instanceRef N_94_i_i))
            (portRef I3 (instanceRef state_RNO_4))
@@ -27713,16 +27713,16 @@
            (portRef R (instanceRef start_timer_tr))
            (portRef R (instanceRef start_flag))
            (portRef R (instanceRef start_timer_hc))
-           (portRef I0 (instanceRef un8_start_stop))
+           (portRef I0 (instanceRef un7_start_stop))
            (portRef I0 (instanceRef N_94_i_i))
           ))
           (net (rename N_94_i_iZ0 "N_94_i_i") (joined
            (portRef O (instanceRef N_94_i_i))
            (portRef N_94_i_i)
           ))
-          (net (rename un8_start_stopZ0 "un8_start_stop") (joined
-           (portRef O (instanceRef un8_start_stop))
-           (portRef un8_start_stop)
+          (net (rename un7_start_stopZ0 "un7_start_stop") (joined
+           (portRef O (instanceRef un7_start_stop))
+           (portRef un7_start_stop)
           ))
           (net (rename state_ns_0_i_3 "state_ns_0_i(3)") (joined
            (portRef O (instanceRef state_RNO_1))
@@ -28754,8 +28754,8 @@
            (portRef RGB2 (instanceRef rgb_drv))
            (portRef rgb_b)
           ))
-          (net un8_start_stop (joined
-           (portRef un8_start_stop (instanceRef phase_controller_inst1))
+          (net un7_start_stop (joined
+           (portRef un7_start_stop (instanceRef phase_controller_inst1))
            (portRef RGB1PWM (instanceRef rgb_drv))
           ))
           (net clk_12mhz (joined
