@@ -36,7 +36,6 @@ Post processing for work.current_shift.behavioral
 @N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":22:20:22:21|Using onehot encoding for type state_type. For example, enumeration readytogo_state is mapped to "100000".
 @N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
 Post processing for work.stoper.behavioral
-@A: CL282 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Feedback mux created for signal target_ticks[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 Post processing for work.phase_controller.behavioral
 @W: CL111 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|All reachable assignments to state_error are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
 @N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
@@ -50,7 +49,8 @@ Post processing for work.delay_measurement.behavioral
 @W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":113:8:113:9|Latch generated from process for signal delay_hc(31 downto 0); possible missing assignment in an if or case statement.
 @W: CL117 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":86:8:86:9|Latch generated from process for signal delay_tr(31 downto 0); possible missing assignment in an if or case statement.
 Post processing for work.main.behavioral
-@W: CL279 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Pruning register bits 31 to 29 of target_ticks(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Optimizing register bit accumulated_time(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":28:8:28:9|Pruning register bit 0 of accumulated_time(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":66:8:66:9|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 5 reachable states with original encodings of:

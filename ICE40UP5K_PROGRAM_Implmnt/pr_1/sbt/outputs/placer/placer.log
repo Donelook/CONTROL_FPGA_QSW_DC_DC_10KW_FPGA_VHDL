@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     Oct 23 2024 20:10:01
+* File Generated:     Nov 15 2024 21:12:38
 
 * Purpose:            
 
@@ -35,10 +35,10 @@ I2053: Starting placement of the design
 =============================================================
 
 Input Design Statistics
-    Number of LUTs      	:	1314
-    Number of DFFs      	:	619
+    Number of LUTs      	:	1150
+    Number of DFFs      	:	623
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	848
+    Number of Carrys    	:	724
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	10
@@ -65,15 +65,15 @@ W2216: SB_GB_IO 'delay_tr_input_ibuf_gb_io' is assigned to a non-GB pin '9'. Rep
 
 Design Legalization Statistics
     Number of feedthru LUTs inserted to legalize input of DFFs     	:	56
-    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	112
-    Number of LUTs replicated for LUTs driving multiple DFFs       	:	6
-    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	19
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	128
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	17
     Number of feedthru LUTs inserted to legalize global signals    	:	2
     Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
-    Total LUTs inserted                                            	:	195
+    Total LUTs inserted                                            	:	203
     Total CARRYs inserted                                          	:	0
 
 
@@ -88,88 +88,88 @@ Phase 3
 Info-1409: Inferred clock at osc/CLKHF
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL
-Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1507", in the clock network. Converting the timing arc to positive-unate
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1351", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_hc_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_tr_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_566/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_566/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI03DN9[22]_LC_567/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI03DN9[22]_LC_567/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI04EN9[31]_LC_568/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI04EN9[31]_LC_568/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI13CN9[14]_LC_570/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI13CN9[14]_LC_570/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI14DN9[23]_LC_571/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI14DN9[23]_LC_571/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI24CN9[15]_LC_572/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI24CN9[15]_LC_572/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI25DN9[24]_LC_573/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI25DN9[24]_LC_573/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI35CN9[16]_LC_575/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI35CN9[16]_LC_575/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI36DN9[25]_LC_576/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI36DN9[25]_LC_576/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI46CN9[17]_LC_577/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI46CN9[17]_LC_577/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI47DN9[26]_LC_578/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI47DN9[26]_LC_578/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI57CN9[18]_LC_580/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI57CN9[18]_LC_580/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI58DN9[27]_LC_581/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI58DN9[27]_LC_581/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI68CN9[19]_LC_583/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI68CN9[19]_LC_583/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI69DN9[28]_LC_584/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI69DN9[28]_LC_584/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI7ADN9[29]_LC_585/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI7ADN9[29]_LC_585/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIDV2T9[1]_LC_589/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIDV2T9[1]_LC_589/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIE03T9[2]_LC_590/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIE03T9[2]_LC_590/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIF13T9[3]_LC_591/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIF13T9[3]_LC_591/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIG23T9[4]_LC_592/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIG23T9[4]_LC_592/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIH33T9[5]_LC_593/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIH33T9[5]_LC_593/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNII43T9[6]_LC_594/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNII43T9[6]_LC_594/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIJ53T9[7]_LC_596/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIJ53T9[7]_LC_596/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIK63T9[8]_LC_597/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIK63T9[8]_LC_597/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIL73T9[9]_LC_599/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIL73T9[9]_LC_599/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNITUBN9[10]_LC_601/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNITUBN9[10]_LC_601/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIU0DN9[20]_LC_602/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIU0DN9[20]_LC_602/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIUVBN9[11]_LC_603/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIUVBN9[11]_LC_603/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV0CN9[12]_LC_604/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV0CN9[12]_LC_604/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV1DN9[21]_LC_605/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV1DN9[21]_LC_605/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV2EN9[30]_LC_606/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV2EN9[30]_LC_606/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0AOBB[13]_LC_669/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0AOBB[13]_LC_669/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0BPBB[22]_LC_670/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0BPBB[22]_LC_670/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0CQBB[31]_LC_671/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0CQBB[31]_LC_671/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1BOBB[14]_LC_672/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1BOBB[14]_LC_672/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1CPBB[23]_LC_673/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1CPBB[23]_LC_673/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2COBB[15]_LC_674/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2COBB[15]_LC_674/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2DPBB[24]_LC_675/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2DPBB[24]_LC_675/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3DOBB[16]_LC_676/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3DOBB[16]_LC_676/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3EPBB[25]_LC_677/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3EPBB[25]_LC_677/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4EOBB[17]_LC_678/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4EOBB[17]_LC_678/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4FPBB[26]_LC_679/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4FPBB[26]_LC_679/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5FOBB[18]_LC_680/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5FOBB[18]_LC_680/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5GPBB[27]_LC_681/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5GPBB[27]_LC_681/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6GOBB[19]_LC_682/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6GOBB[19]_LC_682/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6HPBB[28]_LC_683/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6HPBB[28]_LC_683/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI7IPBB[29]_LC_685/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI7IPBB[29]_LC_685/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIDC91B[1]_LC_690/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIDC91B[1]_LC_690/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIED91B[2]_LC_691/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIED91B[2]_LC_691/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIFE91B[3]_LC_692/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIFE91B[3]_LC_692/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIGF91B[4]_LC_693/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIGF91B[4]_LC_693/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIHG91B[5]_LC_694/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIHG91B[5]_LC_694/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIIH91B[6]_LC_696/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIIH91B[6]_LC_696/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIJI91B[7]_LC_697/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIJI91B[7]_LC_697/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIKJ91B[8]_LC_699/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIKJ91B[8]_LC_699/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNILK91B[9]_LC_701/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNILK91B[9]_LC_701/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIT6OBB[10]_LC_704/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIT6OBB[10]_LC_704/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU7OBB[11]_LC_706/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU7OBB[11]_LC_706/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU8PBB[20]_LC_707/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU8PBB[20]_LC_707/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV8OBB[12]_LC_708/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV8OBB[12]_LC_708/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV9PBB[21]_LC_709/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV9PBB[21]_LC_709/lcout" to break the combinatorial loop
-Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_710/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_710/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_569/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_569/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI03DN9[22]_LC_570/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI03DN9[22]_LC_570/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI04EN9[31]_LC_571/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI04EN9[31]_LC_571/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI13CN9[14]_LC_572/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI13CN9[14]_LC_572/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI14DN9[23]_LC_573/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI14DN9[23]_LC_573/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI24CN9[15]_LC_574/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI24CN9[15]_LC_574/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI25DN9[24]_LC_575/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI25DN9[24]_LC_575/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI35CN9[16]_LC_579/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI35CN9[16]_LC_579/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI36DN9[25]_LC_580/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI36DN9[25]_LC_580/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI46CN9[17]_LC_581/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI46CN9[17]_LC_581/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI47DN9[26]_LC_582/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI47DN9[26]_LC_582/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI57CN9[18]_LC_585/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI57CN9[18]_LC_585/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI58DN9[27]_LC_586/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI58DN9[27]_LC_586/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI68CN9[19]_LC_587/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI68CN9[19]_LC_587/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI69DN9[28]_LC_588/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI69DN9[28]_LC_588/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI7ADN9[29]_LC_589/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI7ADN9[29]_LC_589/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIDV2T9[1]_LC_592/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIDV2T9[1]_LC_592/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIE03T9[2]_LC_593/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIE03T9[2]_LC_593/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIF13T9[3]_LC_594/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIF13T9[3]_LC_594/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIG23T9[4]_LC_595/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIG23T9[4]_LC_595/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIH33T9[5]_LC_596/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIH33T9[5]_LC_596/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNII43T9[6]_LC_597/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNII43T9[6]_LC_597/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIJ53T9[7]_LC_599/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIJ53T9[7]_LC_599/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIK63T9[8]_LC_600/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIK63T9[8]_LC_600/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIL73T9[9]_LC_601/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIL73T9[9]_LC_601/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNITUBN9[10]_LC_604/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNITUBN9[10]_LC_604/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIU0DN9[20]_LC_605/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIU0DN9[20]_LC_605/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIUVBN9[11]_LC_607/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIUVBN9[11]_LC_607/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV0CN9[12]_LC_608/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV0CN9[12]_LC_608/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV1DN9[21]_LC_609/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV1DN9[21]_LC_609/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV2EN9[30]_LC_610/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNIV2EN9[30]_LC_610/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0AOBB[13]_LC_672/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0AOBB[13]_LC_672/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0BPBB[22]_LC_673/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0BPBB[22]_LC_673/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0CQBB[31]_LC_674/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI0CQBB[31]_LC_674/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1BOBB[14]_LC_675/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1BOBB[14]_LC_675/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1CPBB[23]_LC_676/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI1CPBB[23]_LC_676/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2COBB[15]_LC_678/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2COBB[15]_LC_678/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2DPBB[24]_LC_679/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI2DPBB[24]_LC_679/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3DOBB[16]_LC_680/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3DOBB[16]_LC_680/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3EPBB[25]_LC_681/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI3EPBB[25]_LC_681/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4EOBB[17]_LC_682/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4EOBB[17]_LC_682/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4FPBB[26]_LC_683/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI4FPBB[26]_LC_683/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5FOBB[18]_LC_684/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5FOBB[18]_LC_684/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5GPBB[27]_LC_685/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI5GPBB[27]_LC_685/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6GOBB[19]_LC_686/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6GOBB[19]_LC_686/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6HPBB[28]_LC_687/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI6HPBB[28]_LC_687/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI7IPBB[29]_LC_689/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNI7IPBB[29]_LC_689/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIDC91B[1]_LC_692/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIDC91B[1]_LC_692/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIED91B[2]_LC_693/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIED91B[2]_LC_693/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIFE91B[3]_LC_694/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIFE91B[3]_LC_694/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIGF91B[4]_LC_695/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIGF91B[4]_LC_695/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIHG91B[5]_LC_698/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIHG91B[5]_LC_698/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIIH91B[6]_LC_700/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIIH91B[6]_LC_700/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIJI91B[7]_LC_701/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIJI91B[7]_LC_701/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIKJ91B[8]_LC_703/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIKJ91B[8]_LC_703/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNILK91B[9]_LC_704/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNILK91B[9]_LC_704/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIT6OBB[10]_LC_707/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIT6OBB[10]_LC_707/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU7OBB[11]_LC_709/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU7OBB[11]_LC_709/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU8PBB[20]_LC_710/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIU8PBB[20]_LC_710/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV8OBB[12]_LC_711/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV8OBB[12]_LC_711/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV9PBB[21]_LC_712/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIV9PBB[21]_LC_712/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_713/in1" to pin "delay_measurement_inst.delay_tr_timer.elapsed_time_ns_1_RNIVAQBB[30]_LC_713/lcout" to break the combinatorial loop
 
 Design Statistics after Packing
-    Number of LUTs      	:	1510
-    Number of DFFs      	:	619
+    Number of LUTs      	:	1354
+    Number of DFFs      	:	623
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	848
+    Number of Carrys    	:	724
 
 Device Utilization Summary after Packing
     Sequential LogicCells
-        LUT and DFF      	:	253
-        LUT, DFF and CARRY	:	366
+        LUT and DFF      	:	268
+        LUT, DFF and CARRY	:	355
     Combinational LogicCells
-        Only LUT         	:	489
-        CARRY Only       	:	80
-        LUT with CARRY   	:	402
-    LogicCells                  :	1590/5280
-    PLBs                        :	211/660
+        Only LUT         	:	447
+        CARRY Only       	:	85
+        LUT with CARRY   	:	284
+    LogicCells                  :	1439/5280
+    PLBs                        :	188/660
     BRAMs                       :	0/30
     IOs and GBIOs               :	13/36
     PLLs                        :	1/1
@@ -185,23 +185,23 @@ Device Utilization Summary after Packing
     FILTER50NSs                 :	0/2
 
 
-I2088: Phase 3, elapsed time : 1.1 (sec)
+I2088: Phase 3, elapsed time : 1.2 (sec)
 
 Phase 4
 I2108: 0 SB_IO_I3C instances present in the design. 2 I3C IOs available in the device
 I2088: Phase 4, elapsed time : 0.1 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 4.8 (sec)
+I2088: Phase 5, elapsed time : 3.8 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 28.3 (sec)
+I2088: Phase 6, elapsed time : 23.3 (sec)
 
 Final Design Statistics
-    Number of LUTs      	:	1510
-    Number of DFFs      	:	619
+    Number of LUTs      	:	1354
+    Number of DFFs      	:	623
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	848
+    Number of Carrys    	:	724
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	12
@@ -221,8 +221,8 @@ Final Design Statistics
     Number of SPRAMs     	:	0
 
 Device Utilization Summary
-    LogicCells                  :	1590/5280
-    PLBs                        :	304/660
+    LogicCells                  :	1439/5280
+    PLBs                        :	298/660
     BRAMs                       :	0/30
     IOs and GBIOs               :	13/36
     PLLs                        :	1/1
@@ -255,7 +255,7 @@ Clock: MAIN|delay_hc_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: MAIN|delay_tr_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: osc/CLKHF | Frequency: N/A | Target: 12.00 MHz
 Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE | Frequency: N/A | Target: 100.50 MHz
-Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 31.88 MHz | Target: 100.50 MHz
+Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 31.14 MHz | Target: 100.50 MHz
 
 =====================================================================
                      End of Clock Summary
@@ -263,5 +263,5 @@ Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 31.
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 35.1 sec.
+I2076: Placer run-time: 29.1 sec.
 

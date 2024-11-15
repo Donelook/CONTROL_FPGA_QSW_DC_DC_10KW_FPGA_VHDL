@@ -1,0 +1,8 @@
+20:54:16
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "ICE40UP5K_PROGRAM_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 2144847561 seconds
+Current Implementation ICE40UP5K_PROGRAM_Implmnt its sbt path: C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/ICE40UP5K_PROGRAM_Implmnt\pr_1\sbt
+23:11:19

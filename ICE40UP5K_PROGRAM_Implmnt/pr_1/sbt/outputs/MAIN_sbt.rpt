@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Oct 23 2024 20:10:40
+* File Generated:     Nov 15 2024 21:13:15
 
 * Purpose:            General info of design implementation
 
@@ -17,7 +17,7 @@
 Synthesis/Placement Summary:
 ----------------------------
     Status:  Successful
-    Runtime: 0 seconds
+    Runtime: 1 seconds
 
 Device Info:
 ------------
@@ -27,8 +27,8 @@ Device Info:
 
 Design statistics:
 ------------------
-    FFs:                  619
-    LUTs:                 1510
+    FFs:                  623
+    LUTs:                 1354
     RAMs:                 0
     IOBs:                 13
     GBs:                  6
@@ -46,12 +46,12 @@ Design statistics:
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 1590/5280
-        Combinational Logic Cells: 971      out of   5280      18.3902%
-        Sequential Logic Cells:    619      out of   5280      11.7235%
-        Logic Tiles:               304      out of   660       46.0606%
+    Total Logic Cells: 1439/5280
+        Combinational Logic Cells: 816      out of   5280      15.4545%
+        Sequential Logic Cells:    623      out of   5280      11.7992%
+        Logic Tiles:               298      out of   660       45.1515%
     Registers: 
-        Logic Registers:           619      out of   5280      11.7235%
+        Logic Registers:           623      out of   5280      11.7992%
         IO Registers:              0        out of   480       0
     Block RAMs:                    0        out of   30        0%
     Warm Boots:                    0        out of   1         0%
@@ -103,26 +103,26 @@ Detailed I/O Info:
 
 Detailed Global Buffer Info:
 ----------------------------
-    Buffer Number  IO Bank  Driven By  Fanout  Signal Name                                     
-    -------------  -------  ---------  ------  -----------                                     
-    0              2        IO         511     red_c_g                                         
-    2              0                   2       delay_tr_input_c_g                              
-    6              2                   2       delay_hc_input_c_g                              
-    3              0                   32      phase_controller_inst1.stoper_tr.un2_start_0_g  
-    5              2                   32      phase_controller_inst2.stoper_tr.un2_start_0_g  
-    1              0                   33      current_shift_inst.timer_s1.N_153_i_g           
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name                                   
+    -------------  -------  ---------  ------  -----------                                   
+    0              2        IO         627     red_c_g                                       
+    2              0                   2       delay_tr_input_c_g                            
+    6              2                   2       delay_hc_input_c_g                            
+    1              0                   33      current_shift_inst.timer_s1.N_161_i_g         
+    5              2                   31      phase_controller_inst2.stoper_tr.un1_start_g  
+    3              0                   31      phase_controller_inst2.stoper_hc.un1_start_g  
 
 
 Router Summary:
 ---------------
     Status:  Successful
-    Runtime: 11 seconds
+    Runtime: 10 seconds
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile    10425 out of 110555      9.4297%
-                          Span 4     2077 out of  23008      9.0273%
-                         Span 12      476 out of   4464      10.6631%
+              Local line of tile    10115 out of 110555      9.14929%
+                          Span 4     2053 out of  23008      8.92298%
+                         Span 12      332 out of   4464      7.43728%
                   Global network        8 out of      8      100%
-      Vertical Inter-LUT Connect       69 out of   4620      1.49351%
+      Vertical Inter-LUT Connect       49 out of   4620      1.06061%
 

@@ -4,3 +4,6 @@ starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semicon
 Information : Using arguments of synplify instead, will not check them here.
 Synplify_Pro succeed.
 Synthesis runtime 2144765223 seconds
+Current Implementation ICE40UP5K_PROGRAM_Implmnt its sbt path: C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/ICE40UP5K_PROGRAM_Implmnt\pr_1\sbt
+ICE40UP5K_PROGRAM_Implmnt: newer file C:/Users/Michal/Documents/Magisterka/Magisterka dokumenty wyjsciowe/FPGA/PROGRAM/CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL/ICE40UP5K_PROGRAM_Implmnt/ICE40UP5K_PROGRAM.edf detected. Need to run "Import P&R Input Files"
+01:30:01
