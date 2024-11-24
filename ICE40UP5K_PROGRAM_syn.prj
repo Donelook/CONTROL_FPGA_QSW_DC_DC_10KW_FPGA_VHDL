@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\ICE40UP5K_PROGRAM\ICE40UP5K_PROGRAM_syn.prj
-#--  Written on Mon Sep 23 00:07:49 2024
+#--  Project file C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_syn.prj
+#--  Written on Sun Nov 17 15:38:01 2024
 
 
 #project files
@@ -69,6 +69,9 @@ set_option -resource_sharing 1
 
 # Compiler Options
 set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
 
 #automatic place and route (vendor) options
 set_option -write_apr_constraint 1

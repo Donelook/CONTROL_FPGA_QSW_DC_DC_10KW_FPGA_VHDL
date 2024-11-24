@@ -28,7 +28,6 @@ entity MAIN is
         --clk_12mhz      : in  std_logic;   -- 12 MHz system clock for PLL
         reset          : in  std_logic;   -- Reset signal
         start_stop     : in  std_logic;   -- Start/Stop control
-        error_pin      : in  std_logic;   -- Error pin
 
         -- Current sensing signals
         il_max_comp1   : in  std_logic;   -- Current limit comparator 1 (max)
@@ -51,7 +50,11 @@ entity MAIN is
         
         rgb_r              : out std_logic;
         rgb_g              : out std_logic;
-        rgb_b              : out std_logic
+        rgb_b              : out std_logic;
+        
+        test				: out std_logic;
+        test22				: out std_logic;
+        clock_output		: out std_logic
     );
 end MAIN;
 
@@ -126,7 +129,8 @@ architecture Behavioral of MAIN is
             delay_tr      : in  integer;
             S1            : out std_logic;
             S2            : out std_logic;
-            state_error   : out std_logic
+            test   : out std_logic;
+            test22 : out std_logic
         );
     end component;
 	-- RGB module to control RGB led on control board
@@ -152,8 +156,7 @@ architecture Behavioral of MAIN is
     
     -- Internal signals for clocking and control
     signal clk_100mhz         : std_logic;   -- PLL generated 100 MHz clock
-    signal pwm_out1, pwm_out2 : std_logic;   -- PWM outputs for phase controllers
-    signal state_error1, state_error2 : std_logic; -- Error signals for both controllers
+    signal  state_error2 : std_logic; -- Error signals for both controllers
 
     -- Signals for delay measurement
     signal measured_delay_tr  : integer := 0;
@@ -175,7 +178,8 @@ architecture Behavioral of MAIN is
 	
 
 begin
-
+		osc_enable   <= '1';  -- Enable oscillator
+     	osc_powerup  <= '1';  -- Power up oscillator
 	-- Instantiate the internal high-frequency oscillator (HFOSC)
    	osc:SB_HFOSC
 		generic map
@@ -192,12 +196,12 @@ begin
    -- PLL Instance for clock generation (12 MHz to 100.5 MHz)
     pll_inst: ICE40_MAIN_PROGRAM_100MHZ_pll
         Port map (
-            REFERENCECLK => clk_12mhz,    -- 12 MHz input clock
-            PLLOUTCORE   => open,   -- 100 MHz output clock
-            PLLOUTGLOBAL => clk_100mhz,         -- Not used
-            RESET        => reset         -- Reset input for PLL
+            REFERENCECLK => clk_12mhz,    	-- 12 MHz input clock
+            PLLOUTCORE   => open,   		-- Not used
+            PLLOUTGLOBAL => clk_100mhz,     -- 100 MHz output clock
+            RESET        => reset         	-- Reset input for PLL
         );
-   
+   		clock_output <= clk_100mhz;
 
     -- Instantiate delay_measurement module for measuring delay_tr and delay_hc
     delay_measurement_inst: delay_measurement
@@ -222,7 +226,8 @@ begin
             delay_tr        => measured_delay_tr,  -- Use measured delay for TR from delay_measurement
             S1              => s1_phy,                 -- Output to transistor S1
             S2              => s2_phy,                 -- Output to transistor S2
-            state_error     => state_error1        -- Error output signal
+            test     		=> test,       -- test output signal
+           	test22 			=> test22 -- test2	=> test2
         );
 
     -- Instantiate the second PHASE_CONTROLLER module (for controlling S3 and S4)
@@ -236,11 +241,17 @@ begin
             delay_hc        => measured_delay_hc,  -- Same measured delay for HC
             delay_tr        => measured_delay_tr,  -- Same measured delay for TR
             S1              => s3_phy,                 -- Output to transistor S3
-            S2              => s4_phy,                 -- Output to transistor S4
-            state_error     => state_error2        -- Error output signal
+            S2              => s4_phy,                -- Output to transistor S4
+            test     		=> open,       -- test output signal
+           	test22 			=> open -- test2	=> test2
+            -- Error output signal
+            
         );
-		S1_buffor<=s1_phy;
+        process(s1_phy,s3_phy)
+    begin
+        S1_buffor<=s1_phy;
 		S3_buffor<=s3_phy;
+    end process;
 		 -- Instantiate the current_shift module to calculate the integer value
     current_shift_inst: current_shift
         Port map (

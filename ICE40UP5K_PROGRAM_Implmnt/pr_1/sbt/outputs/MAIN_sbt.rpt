@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Nov 15 2024 21:13:15
+* File Generated:     Nov 17 2024 15:38:57
 
 * Purpose:            General info of design implementation
 
@@ -17,7 +17,7 @@
 Synthesis/Placement Summary:
 ----------------------------
     Status:  Successful
-    Runtime: 1 seconds
+    Runtime: 0 seconds
 
 Device Info:
 ------------
@@ -27,10 +27,10 @@ Device Info:
 
 Design statistics:
 ------------------
-    FFs:                  623
-    LUTs:                 1354
+    FFs:                  624
+    LUTs:                 1367
     RAMs:                 0
-    IOBs:                 13
+    IOBs:                 16
     GBs:                  6
     PLLs:                 1
     Warm Boots:           0
@@ -46,12 +46,12 @@ Design statistics:
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 1439/5280
-        Combinational Logic Cells: 816      out of   5280      15.4545%
-        Sequential Logic Cells:    623      out of   5280      11.7992%
-        Logic Tiles:               298      out of   660       45.1515%
+    Total Logic Cells: 1448/5280
+        Combinational Logic Cells: 824      out of   5280      15.6061%
+        Sequential Logic Cells:    624      out of   5280      11.8182%
+        Logic Tiles:               314      out of   660       47.5758%
     Registers: 
-        Logic Registers:           623      out of   5280      11.7992%
+        Logic Registers:           624      out of   5280      11.8182%
         IO Registers:              0        out of   480       0
     Block RAMs:                    0        out of   30        0%
     Warm Boots:                    0        out of   1         0%
@@ -66,7 +66,7 @@ Logic Resource Utilization:
     FILTER_50NSs:                  0        out of   2         0%
     Pins:
         Input Pins:                8        out of   39        20.5128%
-        Output Pins:               5        out of   39        12.8205%
+        Output Pins:               8        out of   39        20.5128%
         InOut Pins:                0        out of   39        0%
     Global Buffers:                6        out of   8         75%
     PLLs:                          1        out of   1         100%
@@ -75,7 +75,7 @@ IO Bank Utilization:
 --------------------
     Bank 3: 0        out of   0         0%
     Bank 1: 0        out of   0         0%
-    Bank 0: 4        out of   17        23.5294%
+    Bank 0: 7        out of   17        41.1765%
     Bank 2: 9        out of   22        40.9091%
 
 Detailed I/O Info:
@@ -96,6 +96,9 @@ Detailed I/O Info:
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name     
     ----------  ---------  -----------  -------  -------  -----------    -----------     
     18          Output     SB_LVCMOS    No       2        Simple Output  pwm_output      
+    25          Output     SB_LVCMOS    No       0        Simple Output  clock_output    
+    26          Output     SB_LVCMOS    No       0        Simple Output  test22          
+    27          Output     SB_LVCMOS    No       0        Simple Output  test            
     31          Output     SB_LVCMOS    No       0        Simple Output  s1_phy          
     34          Output     SB_LVCMOS    No       0        Simple Output  s2_phy          
     36          Output     SB_LVCMOS    No       0        Simple Output  s3_phy          
@@ -105,11 +108,11 @@ Detailed Global Buffer Info:
 ----------------------------
     Buffer Number  IO Bank  Driven By  Fanout  Signal Name                                   
     -------------  -------  ---------  ------  -----------                                   
-    0              2        IO         627     red_c_g                                       
+    0              2        IO         628     red_c_g                                       
     2              0                   2       delay_tr_input_c_g                            
     6              2                   2       delay_hc_input_c_g                            
-    1              0                   33      current_shift_inst.timer_s1.N_161_i_g         
     5              2                   31      phase_controller_inst2.stoper_tr.un1_start_g  
+    1              0                   33      current_shift_inst.timer_s1.N_339_i_g         
     3              0                   31      phase_controller_inst2.stoper_hc.un1_start_g  
 
 
@@ -120,9 +123,9 @@ Router Summary:
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile    10115 out of 110555      9.14929%
-                          Span 4     2053 out of  23008      8.92298%
-                         Span 12      332 out of   4464      7.43728%
+              Local line of tile    10224 out of 110555      9.24789%
+                          Span 4     2264 out of  23008      9.84006%
+                         Span 12      434 out of   4464      9.72222%
                   Global network        8 out of      8      100%
-      Vertical Inter-LUT Connect       49 out of   4620      1.06061%
+      Vertical Inter-LUT Connect       46 out of   4620      0.995671%
 
