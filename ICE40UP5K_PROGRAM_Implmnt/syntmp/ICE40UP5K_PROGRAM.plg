@@ -27,6 +27,6 @@
 @P: MAIN Part : ice40up5ksg48
 @P: MAIN I/O primitives : 16
 @P: MAIN I/O Register bits : 0
-@P: MAIN Register bits (Non I/O) : 624 (11%)
-@P: MAIN Total Luts : 1154 (21%)
+@P: MAIN Register bits (Non I/O) : 622 (11%)
+@P: MAIN Total Luts : 1153 (21%)
 @P:  CPU Time : 0h:00m:01s

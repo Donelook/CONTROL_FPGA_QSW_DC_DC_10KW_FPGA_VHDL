@@ -156,7 +156,7 @@ architecture Behavioral of MAIN is
     
     -- Internal signals for clocking and control
     signal clk_100mhz         : std_logic;   -- PLL generated 100 MHz clock
-    signal  state_error2 : std_logic; -- Error signals for both controllers
+    
 
     -- Signals for delay measurement
     signal measured_delay_tr  : integer := 0;
@@ -164,9 +164,7 @@ architecture Behavioral of MAIN is
 
     -- Signals for current shift and PWM duty cycle
     signal pwm_duty_input     : integer := 0;  -- Output of current_shift to control the PWM duty cycle
-    signal freq_S1            : integer := 8;       -- Frequency of S1 signal
-    signal freq_S3            : integer := 8;      -- Frequency of S3 signal
-    signal phase_shift_ns     : integer := 8;       -- Phase shift between S1 and S3
+          -- Phase shift between S1 and S3
 	signal S1_buffor     : std_logic := '0';       -- 
     signal S3_buffor     : std_logic := '0';       -- 
 	
@@ -174,7 +172,7 @@ architecture Behavioral of MAIN is
 	signal red : std_logic; 
 	signal green : std_logic; 
 	signal blue : std_logic; 
-	signal enable_rgb : std_logic := '1';
+
 	
 
 begin
@@ -281,7 +279,7 @@ begin
                 )
         port map (
             CURREN   => '1',          -- Enable current control
-            RGBLEDEN => enable_rgb,    -- Enable RGB driver
+            RGBLEDEN => '1',    -- Enable RGB driver
             RGB0PWM  => red,         -- Red PWM signal from LEDDA IP
             RGB1PWM  => green,         -- Green PWM signal from LEDDA IP
             RGB2PWM  => blue,         -- Blue PWM signal from LEDDA IP

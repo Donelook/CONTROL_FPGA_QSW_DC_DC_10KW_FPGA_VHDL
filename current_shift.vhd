@@ -49,23 +49,21 @@ architecture Behavioral of CURRENT_SHIFT is
     -- Signals for timer control
     signal start_timer_s1 : std_logic := '0';
     signal stop_timer_s1  : std_logic := '0';
-    signal start_timer_s3 : std_logic := '0';
-    signal stop_timer_s3  : std_logic := '0';
+
     signal start_timer_phase : std_logic := '0';
     signal stop_timer_phase  : std_logic := '0';
 
     -- Signals for elapsed times
     signal elapsed_time_ns_s1 : integer := 0;
-    signal elapsed_time_ns_s3 : integer := 0;
+
     signal elapsed_time_ns_phase : integer := 0;
 
 
 
     -- Signals for phase shift calculation
-    signal phase_shift_ratio : integer := 0;
     signal control_input     : integer := 0;
     signal phase_bufor       : std_logic := '0';
-    signal s1_freq_completed      : std_logic := '0';
+
 
 begin
 	

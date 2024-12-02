@@ -16,6 +16,7 @@
 @N: CD231 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":23:23:23:24|Using onehot encoding for type state_machine. For example, enumeration readytogo_state is mapped to "100000".
 @N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\stoper.vhd":5:7:5:12|Synthesizing work.stoper.behavioral.
 @N: CD630 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\delay_measurement.vhd":5:7:5:23|Synthesizing work.delay_measurement.behavioral.
+@N: CL201 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\phase_controller.vhd":67:8:67:9|Trying to extract state machine for register state.
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
 @N: CG364 :"C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40_MAIN_PROGRAM_100MHZ_pll.v":1:7:1:35|Synthesizing module ICE40_MAIN_PROGRAM_100MHZ_pll in library work.
 @N|Running in 64-bit mode

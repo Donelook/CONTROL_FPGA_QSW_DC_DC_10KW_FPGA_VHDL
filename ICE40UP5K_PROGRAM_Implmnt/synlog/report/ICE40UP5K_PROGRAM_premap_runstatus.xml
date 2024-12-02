@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>7</data>
+<data>8</data>
 <report_link name="more">
 <data>C:\Users\Michal\Documents\Magisterka\Magisterka dokumenty wyjsciowe\FPGA\PROGRAM\CONTROL_FPGA_QSW_DC_DC_10KW_FPGA_VHDL\ICE40UP5K_PROGRAM_Implmnt\synlog\report\ICE40UP5K_PROGRAM_premap_notes.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>136MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1731854258</data>
+<data type="timestamp">1732895331</data>
 </info>
 </job_info>
 </job_run_status>
