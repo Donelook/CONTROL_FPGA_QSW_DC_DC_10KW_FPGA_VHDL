@@ -15,7 +15,7 @@ SB_RGBA_DRV     1 use
 VCC             14 uses
 SB_MAC16            4 uses
   MULTONLY  4 uses
-SB_LUT4         1153 uses
+SB_LUT4         1154 uses
 
 I/O ports: 19
 I/O primitives: 16
@@ -26,8 +26,8 @@ I/O Register bits:                  0
 Register bits not including I/Os:   622 (11%)
 
 @S |Mapping Summary:
-Total  LUTs: 1153 (21%)
+Total  LUTs: 1154 (21%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 1153 = 1153 
+Distribution of All Consumed Luts 1154 = 1154 
 

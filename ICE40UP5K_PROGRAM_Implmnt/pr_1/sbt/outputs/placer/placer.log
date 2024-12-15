@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     Nov 29 2024 16:49:15
+* File Generated:     Dec 12 2024 23:00:01
 
 * Purpose:            
 
@@ -35,7 +35,7 @@ I2053: Starting placement of the design
 =============================================================
 
 Input Design Statistics
-    Number of LUTs      	:	1153
+    Number of LUTs      	:	1154
     Number of DFFs      	:	622
     Number of DFFs packed to IO	:	0
     Number of Carrys    	:	724
@@ -68,12 +68,12 @@ Design Legalization Statistics
     Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
     Number of LUTs replicated for LUTs driving multiple DFFs       	:	128
     Number of feedthru LUTs inserted to legalize output of CARRYs  	:	17
-    Number of feedthru LUTs inserted to legalize global signals    	:	3
+    Number of feedthru LUTs inserted to legalize global signals    	:	2
     Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
-    Total LUTs inserted                                            	:	204
+    Total LUTs inserted                                            	:	203
     Total CARRYs inserted                                          	:	0
 
 
@@ -88,8 +88,8 @@ Phase 3
 Info-1409: Inferred clock at osc/CLKHF
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE
 Info-1404: Inferred PLL generated clock at pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL
-Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clock_output_0_THRU_LUT4_0_LC_1354", in the clock network. Converting the timing arc to positive-unate
-Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1355", in the clock network. Converting the timing arc to positive-unate
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clock_output_0_THRU_LUT4_0_LC_1355", in the clock network. Converting the timing arc to positive-unate
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_clk_12mhz_THRU_LUT4_0_LC_1356", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_hc_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "delay_tr_input_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 Warning-1035: Removing timing arc from pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_569/in1" to pin "delay_measurement_inst.delay_hc_timer.elapsed_time_ns_1_RNI02CN9[13]_LC_569/lcout" to break the combinatorial loop
@@ -193,10 +193,10 @@ I2108: 0 SB_IO_I3C instances present in the design. 2 I3C IOs available in the d
 I2088: Phase 4, elapsed time : 0.1 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 4.0 (sec)
+I2088: Phase 5, elapsed time : 4.5 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 23.8 (sec)
+I2088: Phase 6, elapsed time : 27.0 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	1358
@@ -223,7 +223,7 @@ Final Design Statistics
 
 Device Utilization Summary
     LogicCells                  :	1443/5280
-    PLBs                        :	294/660
+    PLBs                        :	279/660
     BRAMs                       :	0/30
     IOs and GBIOs               :	16/36
     PLLs                        :	1/1
@@ -256,7 +256,7 @@ Clock: MAIN|delay_hc_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: MAIN|delay_tr_input | Frequency: 394.30 MHz | Target: 100.00 MHz
 Clock: osc/CLKHF | Frequency: N/A | Target: 12.00 MHz
 Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTCORE | Frequency: N/A | Target: 100.50 MHz
-Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 32.22 MHz | Target: 100.50 MHz
+Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 31.78 MHz | Target: 100.50 MHz
 
 =====================================================================
                      End of Clock Summary
@@ -264,5 +264,5 @@ Clock: pll_inst.ICE40_MAIN_PROGRAM_100MHZ_pll_inst/PLLOUTGLOBAL | Frequency: 32.
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 29.9 sec.
+I2076: Placer run-time: 33.4 sec.
 

@@ -197,7 +197,7 @@ begin
             REFERENCECLK => clk_12mhz,    	-- 12 MHz input clock
             PLLOUTCORE   => open,   		-- Not used
             PLLOUTGLOBAL => clk_100mhz,     -- 100 MHz output clock
-            RESET        => reset         	-- Reset input for PLL
+            RESET        => not reset         	-- Reset input for PLL
         );
    		clock_output <= clk_100mhz;
 
